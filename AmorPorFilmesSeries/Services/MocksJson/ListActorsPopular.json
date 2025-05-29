@@ -1,0 +1,1509 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 3480304,
+      "known_for_department": "Acting",
+      "name": "Kaitlyn Santa Juana",
+      "original_name": "Kaitlyn Santa Juana",
+      "popularity": 34.6079,
+      "profile_path": "/75Tdc3wg9mklJHy5LEj8OMjcPw8.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+          "id": 574475,
+          "title": "Premonição 6: Laços de Sangue",
+          "original_title": "Final Destination Bloodlines",
+          "overview": "Atormentada por um pesadelo violento recorrente, a estudante universitária Stefanie volta para casa para encontrar a única pessoa que pode quebrar o ciclo e salvar sua família do destino horrível que inevitavelmente os aguarda.",
+          "poster_path": "/j8c47GIu7kpNPi8gsSR8jQBjYBB.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "popularity": 455.0084,
+          "release_date": "2025-05-14",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 450
+        },
+        {
+          "backdrop_path": "/729a5iDNxr5l2Zbc8lcwndlJavN.jpg",
+          "id": 844396,
+          "title": "The Friendship Game",
+          "original_title": "The Friendship Game",
+          "overview": "Um grupo de adolescentes em uma pequena cidade descobre um objeto estranho que testa a força de sua amizade.",
+          "poster_path": "/qXaJkaVTNMhrOylFi6xrWnBQGE8.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            878,
+            9648
+          ],
+          "popularity": 1.0117,
+          "release_date": "2022-11-11",
+          "video": false,
+          "vote_average": 4.566,
+          "vote_count": 61
+        },
+        {
+          "backdrop_path": "/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg",
+          "id": 60735,
+          "name": "Flash",
+          "original_name": "The Flash",
+          "overview": "Um perito forense desperta de um coma com poderes especiais que serão postos à prova na luta contra forças que ameaçam a cidade.",
+          "poster_path": "/lFxIoMKqkgTuxpghTPHBjoVstMV.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            18,
+            10765
+          ],
+          "popularity": 252.6114,
+          "first_air_date": "2014-10-07",
+          "vote_average": 7.771,
+          "vote_count": 11299,
+          "origin_country": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 976,
+      "known_for_department": "Acting",
+      "name": "Jason Statham",
+      "original_name": "Jason Statham",
+      "popularity": 30.1718,
+      "profile_path": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/32V4uHVRU2fbDsQl1dsYsZm3uba.jpg",
+          "id": 107,
+          "title": "Snatch: Porcos e Diamantes",
+          "original_title": "Snatch",
+          "overview": "Quando o ladrão de joias Franky Quatro-Dedos faz uma parada em Londres, antes de entregar um enorme diamante roubado para o seu chefe em Nova York, ele não tinha a menor ideia da avalanche de acontecimentos sinistros e cômicos que abalariam o mundo do boxe, dos ciganos irlandeses, das lojas de penhores, das fazendas de porcos e... de um cão vira-latas.",
+          "poster_path": "/cOi4eDdHIK7mKDxLL6xYDAaWlwk.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            80,
+            35
+          ],
+          "popularity": 12.4238,
+          "release_date": "2000-09-01",
+          "video": false,
+          "vote_average": 7.812,
+          "vote_count": 9320
+        },
+        {
+          "backdrop_path": "/2uSCHUsmzb6KkQPFSxBQ7bgfJLE.jpg",
+          "id": 345940,
+          "title": "Megatubarão",
+          "original_title": "The Meg",
+          "overview": "Na fossa mais profunda do Oceano Pacífico, a tripulação de um submarino fica presa dentro do local após ser atacada por uma criatura pré-histórica que se achava estar extinta, um tubarão de mais de 20 metros de comprimento, o Megalodon. Para salvá-los, um oceanógrafo chinês contrata Jonas Taylor, um mergulhador especializado em resgates em água profundas que já encontrou com a criatura anteriormente.",
+          "poster_path": "/nidLgS7SNKI7HwD2wwgf07jYJZR.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            878,
+            27
+          ],
+          "popularity": 12.852,
+          "release_date": "2018-08-09",
+          "video": false,
+          "vote_average": 6.248,
+          "vote_count": 7823
+        },
+        {
+          "backdrop_path": "/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
+          "id": 637649,
+          "title": "Infiltrado",
+          "original_title": "Wrath of Man",
+          "overview": "Harry, conhecido apenas como H, é um homem misterioso que trabalha para uma empresa de carros-fortes e movimenta grandes quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto, ele surpreende a todos com suas habilidades de combate, suas verdadeiras intenções começam a ser questionadas e um plano maior é revelado.",
+          "poster_path": "/rNz8wy63GAabztAUkO4xMGk3upx.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "popularity": 16.7505,
+          "release_date": "2021-04-22",
+          "video": false,
+          "vote_average": 7.615,
+          "vote_count": 5588
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 115440,
+      "known_for_department": "Acting",
+      "name": "Sydney Sweeney",
+      "original_name": "Sydney Sweeney",
+      "popularity": 26.8921,
+      "profile_path": "/uDnIdU4KGjQg7liFvb9wnALvg95.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/9KnIzPCv9XpWA0MqmwiKBZvV1Sj.jpg",
+          "id": 85552,
+          "name": "Euphoria",
+          "original_name": "Euphoria",
+          "overview": "Um grupo de estudantes do ensino médio lida com diferentes situações típicas da idade como drogas, sexo, busca pela identidade, traumas, comportamento nas redes sociais e amizade.",
+          "poster_path": "/3Q0hd3heuWwDWpwcDkhQOA6TYWI.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            18
+          ],
+          "popularity": 63.9108,
+          "first_air_date": "2019-06-16",
+          "vote_average": 8.3,
+          "vote_count": 10048,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/j9eOeLlTGoHoM8BNUJVNyWmIvCi.jpg",
+          "id": 1072790,
+          "title": "Todos Menos Você",
+          "original_title": "Anyone But You",
+          "overview": "Bea e Ben parecem o casal perfeito, mas depois de um primeiro encontro incrível, algo acontece que transforma sua atração ardente em gelo - até que eles se encontram inesperadamente juntos em um casamento na Austrália.  Então eles fazem o que dois adultos maduros fariam: fingem ser um casal.",
+          "poster_path": "/iKOEAPkb5EyCPmAgByYNeAoG5uc.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            10749,
+            35
+          ],
+          "popularity": 15.3083,
+          "release_date": "2023-12-21",
+          "video": false,
+          "vote_average": 6.871,
+          "vote_count": 2563
+        },
+        {
+          "backdrop_path": "/pIFGZRCWjdQwECoXcphCCe1tl0B.jpg",
+          "id": 1041613,
+          "title": "Imaculada",
+          "original_title": "Immaculate",
+          "overview": "Cecilia, uma jovem religiosa, se torna freira em um convento isolado na região rural italiana. Após uma gravidez misteriosa, Cecilia é atormentada por forças perversas, enquanto confronta segredos sombrios e horrores do convento.",
+          "poster_path": "/tsV19P8J4NMP54cC8QCg1IkLLks.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            9648,
+            53
+          ],
+          "popularity": 8.4408,
+          "release_date": "2024-03-20",
+          "video": false,
+          "vote_average": 6.232,
+          "vote_count": 1425
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 6384,
+      "known_for_department": "Acting",
+      "name": "Keanu Reeves",
+      "original_name": "Keanu Reeves",
+      "popularity": 26.3605,
+      "profile_path": "/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/icmmSD4vTTDKOq2vvdulafOGw93.jpg",
+          "id": 603,
+          "title": "Matrix",
+          "original_title": "The Matrix",
+          "overview": "Thomas Anderson, um jovem programador de computador que mora em um cubículo escuro, é atormentado por estranhos pesadelos nos quais encontra-se conectado por cabos e contra sua vontade, em um imenso sistema de computadores do futuro. Em todas essas ocasiões, acorda gritando no exato momento em que os eletrodos estão para penetrar em seu cérebro. À medida que o sonho se repete, Anderson começa a ter dúvidas sobre a realidade. Por meio do encontro com os misteriosos Morpheus e Trinity, Thomas descobre que é, assim como outras pessoas, vítima da Matrix, um sistema inteligente e artificial que manipula a mente das pessoas, criando a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia. Morpheus, entretanto, está convencido de que Thomas é Neo, o aguardado messias capaz de enfrentar a Matrix e conduzir as pessoas de volta à realidade e à liberdade.",
+          "poster_path": "/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            878
+          ],
+          "popularity": 29.2699,
+          "release_date": "1999-03-31",
+          "video": false,
+          "vote_average": 8.226,
+          "vote_count": 26405
+        },
+        {
+          "backdrop_path": "/eD7FnB7LLrBV5ewjdGLYTAoV9Mv.jpg",
+          "id": 245891,
+          "title": "John Wick - De Volta ao Jogo",
+          "original_title": "John Wick",
+          "overview": "John Wick é um lendário assassino de aluguel aposentado, lidando com o luto após perder o grande amor de sua vida. Quando um gângster invade sua casa, mata seu cachorro e rouba seu carro, ele é forçado a voltar à ativa e inicia sua vingança.",
+          "poster_path": "/4A9KmccvMqJA8MQzIes0G9Uobh5.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            53
+          ],
+          "popularity": 15.2932,
+          "release_date": "2014-10-22",
+          "video": false,
+          "vote_average": 7.445,
+          "vote_count": 19706
+        },
+        {
+          "backdrop_path": "/r17jFHAemzcWPPtoO0UxjIX0xas.jpg",
+          "id": 324552,
+          "title": "John Wick: Um Novo Dia para Matar",
+          "original_title": "John Wick: Chapter 2",
+          "overview": "O lendário John Wick é forçado a deixar a aposentadoria em função de um criminoso que conspira para tomar o controle de um clã de assassinos internacionais. Por causa de um pacto de sangue, John Wick viaja para Roma, com o objetivo de ajudar um velho amigo a derrubar a organização internacional secreta, perigosa e mortal de assassinos procurados em todo o mundo.",
+          "poster_path": "/k36UzsRQaY6E055cdYPdYbyREer.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            53,
+            80
+          ],
+          "popularity": 16.7073,
+          "release_date": "2017-02-08",
+          "video": false,
+          "vote_average": 7.332,
+          "vote_count": 13425
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 1253360,
+      "known_for_department": "Acting",
+      "name": "Pedro Pascal",
+      "original_name": "Pedro Pascal",
+      "popularity": 25.7531,
+      "profile_path": "/9VYK7oxcqhjd5LAH6ZFJ3XzOlID.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/9zcbqSxdsRMZWHYtyCd1nXPr2xq.jpg",
+          "id": 82856,
+          "name": "The Mandalorian",
+          "original_name": "The Mandalorian",
+          "overview": "A saga de um guerreiro solitário, que também é um mercenário e pistoleiro, viajando pelos territórios esquecidos e marginais do espaço, logo após a queda do Império e antes da criação da temida Primeira Ordem.",
+          "poster_path": "/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            10765,
+            10759,
+            18
+          ],
+          "popularity": 41.2665,
+          "first_air_date": "2019-11-12",
+          "vote_average": 8.4,
+          "vote_count": 10363,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
+          "id": 100088,
+          "name": "The Last of Us",
+          "original_name": "The Last of Us",
+          "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+          "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            18
+          ],
+          "popularity": 393.9559,
+          "first_air_date": "2023-01-15",
+          "vote_average": 8.55,
+          "vote_count": 6061,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg",
+          "id": 345887,
+          "title": "O Protetor 2",
+          "original_title": "The Equalizer 2",
+          "overview": "Criminosos assassinam Susan Plummer, a melhor amiga de Robert McCall e sua ex-colega de trabalho. Obcecado, Robert pensa apenas em eliminar o bando de assassinos profissionais que destruiu sua vida.",
+          "poster_path": "/q8BiYs0DjyCuqmcUYsembVbjwKT.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            53,
+            80
+          ],
+          "popularity": 9.1832,
+          "release_date": "2018-07-19",
+          "video": false,
+          "vote_average": 6.772,
+          "vote_count": 5545
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 64,
+      "known_for_department": "Acting",
+      "name": "Gary Oldman",
+      "original_name": "Gary Oldman",
+      "popularity": 24.911,
+      "profile_path": "/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/y2DB71C4nyIdMrANijz8mzvQtk6.jpg",
+          "id": 49026,
+          "title": "Batman: O Cavaleiro das Trevas Ressurge",
+          "original_title": "The Dark Knight Rises",
+          "overview": "Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado.",
+          "poster_path": "/w7KDOBOKoZNzZkiKInFBlqo7Cbg.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            80,
+            18,
+            53
+          ],
+          "popularity": 15.5963,
+          "release_date": "2012-07-17",
+          "video": false,
+          "vote_average": 7.785,
+          "vote_count": 23225
+        },
+        {
+          "backdrop_path": "/plDp52MirFHc2PMJRMNWoG0kfr3.jpg",
+          "id": 155,
+          "title": "Batman: O Cavaleiro das Trevas",
+          "original_title": "The Dark Knight",
+          "overview": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
+          "poster_path": "/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            18,
+            28,
+            80,
+            53
+          ],
+          "popularity": 29.6601,
+          "release_date": "2008-07-16",
+          "video": false,
+          "vote_average": 8.52,
+          "vote_count": 33877
+        },
+        {
+          "backdrop_path": "/tyBkBHKDrJyVUeCs550kMr61jnq.jpg",
+          "id": 6114,
+          "title": "Drácula de Bram Stoker",
+          "original_title": "Bram Stoker's Dracula",
+          "overview": "O vampiro Conde Drácula vem à Inglaterra atrás de quem ele acredita ser sua antiga paixão, de quando ainda era um mortal.",
+          "poster_path": "/6JnvgcFX5bNZC6Xq2FPURBJFCxH.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            10749,
+            27
+          ],
+          "popularity": 7.1166,
+          "release_date": "1992-11-13",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 5330
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 2182738,
+      "known_for_department": "Acting",
+      "name": "India Fowler",
+      "original_name": "India Fowler",
+      "popularity": 24.5345,
+      "profile_path": "/2yDVQeUya6ZlPjzsDun9TUNs0O0.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/3sa9jvM89Y2qimpKlWIQBPxqeRE.jpg",
+          "id": 197588,
+          "name": "Homem x Abelha: A Batalha",
+          "original_name": "Man Vs Bee",
+          "overview": "O desastrado Trevor é contratado para tomar conta de uma mansão luxuosa, mas entra em guerra com uma abelha. É o início do caos!",
+          "poster_path": "/yuVKmbBqUT9GconRygJjPnF2sXk.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            10751
+          ],
+          "popularity": 5.5285,
+          "first_air_date": "2022-06-24",
+          "vote_average": 7.186,
+          "vote_count": 586,
+          "origin_country": [
+            "GB"
+          ]
+        },
+        {
+          "backdrop_path": "/ctvZVrJBRjOgLeQtLaNEbg9w0y8.jpg",
+          "id": 72792,
+          "name": "Safe",
+          "original_name": "Safe",
+          "overview": "Após o desaparecimento de sua filha mais velha, um cirurgião viúvo faz descobertas terríveis sobre pessoas bem próximas.",
+          "poster_path": "/lrA2SSoWp3zzb0MBdjWKCVN0qEF.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            18,
+            80
+          ],
+          "popularity": 5.7714,
+          "first_air_date": "2018-05-10",
+          "vote_average": 6.893,
+          "vote_count": 309,
+          "origin_country": [
+            "GB"
+          ]
+        },
+        {
+          "backdrop_path": "/lNyl7Ceyx3mMy4V1ZJJQRj3sPF6.jpg",
+          "id": 1010600,
+          "title": "Os Estranhos: Capítulo 1",
+          "original_title": "The Strangers: Chapter 1",
+          "overview": "A jovem Maya viaja para o campo com seu namorado para começar uma nova vida. Quando seu carro quebra, o casal é forçado a passar a noite em um Airbnb isolado na floresta, onde o casal é aterrorizado até o amanhecer por três estranhos mascarados.",
+          "poster_path": "/vjyZvt5qMJ5xQAzQ8JvT0arlpkK.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "popularity": 6.2881,
+          "release_date": "2024-05-15",
+          "video": false,
+          "vote_average": 5.722,
+          "vote_count": 512
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 117642,
+      "known_for_department": "Acting",
+      "name": "Jason Momoa",
+      "original_name": "Jason Momoa",
+      "popularity": 24.1184,
+      "profile_path": "/3troAR6QbSb6nUFMDu61YCCWLKa.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/qkOw5IZXESOiRH4wzdIYJlBZiCp.jpg",
+          "id": 297802,
+          "title": "Aquaman",
+          "original_title": "Aquaman",
+          "overview": "A cidade de Atlantis, que já foi lar de uma das mais avançadas civilizações do mundo, agora é um reino submerso dominado pelo ganancioso Rei Orm. Com um vasto exército a seu dispor, Orm planeja conquistar tanto os demais reinos do oceano, quanto o mundo da superfície. Em seu caminho está Aquaman, meio-humano e meio-atlante, e verdadeiro herdeiro do trono. Com a ajuda da princesa Mera, Aquaman precisa recuperar o lendário Tridente de Atlan e aceitar seu destino como protetor das profundezas.",
+          "poster_path": "/4CKtfsbNqAf0uDfpLfKQyig6SDu.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "popularity": 11.5468,
+          "release_date": "2018-12-07",
+          "video": false,
+          "vote_average": 6.877,
+          "vote_count": 14333
+        },
+        {
+          "backdrop_path": "/h3HsfV8Kn9Sz2QWUYYdP5ya23hx.jpg",
+          "id": 438631,
+          "title": "Duna",
+          "original_title": "Dune",
+          "overview": "Em um futuro distante, planetas são comandados por casas nobres que fazem parte de um império feudal intergalático. Paul Atreides é um jovem cuja família toma o controle do planeta deserto Arrakis, também conhecido como Duna. A única fonte da especiaria Melange, a substância mais importante do cosmos, Arrakis se mostra ser um planeta nem um pouco fácil de governar.",
+          "poster_path": "/obhGsx4PE9OzsVGtIfoLAIIWGNb.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            12
+          ],
+          "popularity": 24.1759,
+          "release_date": "2021-09-15",
+          "video": false,
+          "vote_average": 7.782,
+          "vote_count": 13566
+        },
+        {
+          "backdrop_path": "/7S0bXv3BqCuPfImKRf5kkmBVYZR.jpg",
+          "id": 572802,
+          "title": "Aquaman 2: O Reino Perdido",
+          "original_title": "Aquaman and the Lost Kingdom",
+          "overview": "Agora mais temível do que nunca, Arraia Negra detém o poder do mítico Tridente Preto e sua ancestral força malévola. Para derrotá-lo, Aquaman recorrerá a seu irmão Orm, o ex-Rei da Atlântida, ainda na prisão, para forjar uma aliança improvável. Juntos, eles vão ter que deixar de lado suas diferenças para proteger seu reino, salvar a família de Aquaman e o mundo da irreversível destruição.",
+          "poster_path": "/oSK996swnjHOPCWAw5CiRoYLsKk.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "popularity": 16.3039,
+          "release_date": "2023-12-20",
+          "video": false,
+          "vote_average": 6.608,
+          "vote_count": 3087
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 500,
+      "known_for_department": "Acting",
+      "name": "Tom Cruise",
+      "original_name": "Tom Cruise",
+      "popularity": 23.5796,
+      "profile_path": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/4V1yIoAKPMRQwGBaSses8Bp2nsi.jpg",
+          "id": 137113,
+          "title": "No Limite do Amanhã",
+          "original_title": "Edge of Tomorrow",
+          "overview": "A Terra está dominada por alienígenas e o major Bill Cage, um relações públicas das Forças Armadas dos Estados Unidos, é obrigado a ir para a linha de frente. Inexplicavelmente, ele acaba preso em um ciclo do tempo, revivendo repetidamente sua última batalha. No entanto, quanto mais vezes ele luta, suas habilidades de guerreiro melhoram e ele fica mais perto de descobrir como derrotar o inimigo.",
+          "poster_path": "/ibubeKZuo4ZI2Zu2Dm2s0gmMvuk.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            878
+          ],
+          "popularity": 13.7929,
+          "release_date": "2014-05-27",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 14209
+        },
+        {
+          "backdrop_path": "/sbkYWB5QcfT00gLUkbNE5LTdhIX.jpg",
+          "id": 75612,
+          "title": "Oblivion",
+          "original_title": "Oblivion",
+          "overview": "A Terra foi destruída pela raça Scav. Jack conserta as naves não-tripuladas que coletam os recursos vitais que restam no planeta. Após cumprir sua missão na Terra, Jack Harper partirá para uma colônia lunar. Mas tudo muda quando ele encontra uma espaçonave com uma mulher dentro.",
+          "poster_path": "/qL1qC0BCIgOvCLKyVj8bIeijMY9.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            878,
+            12,
+            9648
+          ],
+          "popularity": 9.4166,
+          "release_date": "2013-04-10",
+          "video": false,
+          "vote_average": 6.654,
+          "vote_count": 10907
+        },
+        {
+          "backdrop_path": "/ih4lZkUpmSE7AP3maymiO72xJ1z.jpg",
+          "id": 56292,
+          "title": "Missão: Impossível - Protocolo Fantasma",
+          "original_title": "Mission: Impossible - Ghost Protocol",
+          "overview": "Ethan Hunt e sua equipe correm contra o tempo para localizar um perigoso terrorista chamado Hendricks, que obteve acesso aos códigos de lançamento nuclear russo e está planejando um ataque aos Estados Unidos. Uma tentativa de detê-lo termina em uma explosão que causa grande destruição no Kremlin e o IMF é implicado no bombardeio, forçando o Presidente a rejeitá-los. Sem a ajuda do governo, Ethan e sua equipe perseguem Hendricks em todo o mundo, embora ainda possa ser tarde demais para impedir um desastre.",
+          "poster_path": "/19vTKySZasegBjQFfdawcY0HBPc.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            53,
+            12
+          ],
+          "popularity": 34.8809,
+          "release_date": "2011-12-07",
+          "video": false,
+          "vote_average": 7.098,
+          "vote_count": 10158
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 1245,
+      "known_for_department": "Acting",
+      "name": "Scarlett Johansson",
+      "original_name": "Scarlett Johansson",
+      "popularity": 23.3392,
+      "profile_path": "/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/ozVwXlfxqNsariipatGwa5px3Pm.jpg",
+          "id": 240832,
+          "title": "Lucy",
+          "original_title": "Lucy",
+          "overview": "Quando a inocente jovem Lucy (Scarlett Johansson) aceita transportar drogas dentro do seu estômago, ela não conhece muito bem os riscos que corre. Por acaso, ela acaba absorvendo as drogas, e um efeito inesperado acontece: Lucy ganha poderes sobre-humanos, incluindo a telecinesia, a ausência de dor e a capacidade de adquirir conhecimento instantaneamente.",
+          "poster_path": "/6f10Yn1vooCMhb6DrY6AvsK19Yh.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            878
+          ],
+          "popularity": 18.8248,
+          "release_date": "2014-07-25",
+          "video": false,
+          "vote_average": 6.463,
+          "vote_count": 16330
+        },
+        {
+          "backdrop_path": "/dq18nCTTLpy9PmtzZI6Y2yAgdw5.jpg",
+          "id": 497698,
+          "title": "Viúva Negra",
+          "original_title": "Black Widow",
+          "overview": "Natasha Romanoff, também conhecida como Viúva Negra, confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado. Perseguida por uma força implacável disposta a tudo para destruí-la, Natasha precisa agora lidar com seu passado como espiã e com as relações que deixou para trás muito antes de se tornar uma Vingadora.",
+          "poster_path": "/1olJMMIUYkV6XwET1xRIROqYkxO.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            12,
+            878
+          ],
+          "popularity": 15.5337,
+          "release_date": "2021-07-07",
+          "video": false,
+          "vote_average": 7.207,
+          "vote_count": 10555
+        },
+        {
+          "backdrop_path": "/9WmLfENjz1RuL0MSMZAG3qjoYWR.jpg",
+          "id": 315837,
+          "title": "A Vigilante do Amanhã: Ghost in the Shell",
+          "original_title": "Ghost in the Shell",
+          "overview": "Num mundo pós 2029, cérebros se fundem facilmente a computadores e a tecnologia está em todos os lugares. Motoko Kusanagi é uma ciborgue com experiência militar que comanda um esquadrão de elite especializado em combater crimes cibernéticos.",
+          "poster_path": "/rDVB5QXh4RoYPMUCelxJEtprgy6.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            18,
+            28
+          ],
+          "popularity": 6.9375,
+          "release_date": "2017-03-29",
+          "video": false,
+          "vote_average": 6.091,
+          "vote_count": 8160
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 85,
+      "known_for_department": "Acting",
+      "name": "Johnny Depp",
+      "original_name": "Johnny Depp",
+      "popularity": 23.158,
+      "profile_path": "/wcI594cwM4ArPwvRd2IU0Z0yLuh.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/98sKFlXeRI8fzBdy9eao98TlrkF.jpg",
+          "id": 22,
+          "title": "Piratas do Caribe: A Maldição do Pérola Negra",
+          "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "overview": "O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em direção à misteriosa Ilha da Morte, tentando impedir que os piratas-esqueleto derramem o sangue de Elizabeth para desfazer a maldição que os assola.",
+          "poster_path": "/zUpeLvZJw5Tf22BAjraOZFex9E0.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "popularity": 22.6785,
+          "release_date": "2003-07-09",
+          "video": false,
+          "vote_average": 7.811,
+          "vote_count": 21145
+        },
+        {
+          "backdrop_path": "/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg",
+          "id": 58,
+          "title": "Piratas do Caribe: O Baú da Morte",
+          "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+          "overview": "Will e Elizabeth estão prestes a se casar quando o lendário pirata Davy Jones, comandante do invencível navio assombrado O Holandês Voador, aparece para cobrar uma dívida do capitão Jack Sparrow, amigo do casal. A única chance de Sparrow se livrar de uma maldição de Jones é encontrando o baú da morte.",
+          "poster_path": "/dCXOveWolVMMbJZQ0cNslpqohPM.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "popularity": 19.6352,
+          "release_date": "2006-07-06",
+          "video": false,
+          "vote_average": 7.366,
+          "vote_count": 16360
+        },
+        {
+          "backdrop_path": "/bSvUW4JQ6g4QiKvwejcfcPRd4Ke.jpg",
+          "id": 118,
+          "title": "A Fantástica Fábrica de Chocolate",
+          "original_title": "Charlie and the Chocolate Factory",
+          "overview": "Willy Wonka (Johnny Depp) é o excêntrico dono da maior fábrica de doces do planeta, que decide realizar um concurso mundial para escolher um herdeiro para seu império. Cinco crianças de sorte, entre elas Charlie Bucket (Freddie Highmore), encontram um convite dourado em barras de chocolate Wonka e com isso ganham uma visita guiada pela lendária fábrica de chocolate, que não era visitada por ninguém há quinze anos.",
+          "poster_path": "/o1BtZCp1t7ZpLJu9lLEJ4STKUR3.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            35,
+            10751,
+            14
+          ],
+          "popularity": 17.1062,
+          "release_date": "2005-07-13",
+          "video": false,
+          "vote_average": 7.043,
+          "vote_count": 15465
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 974169,
+      "known_for_department": "Acting",
+      "name": "Jenna Ortega",
+      "original_name": "Jenna Ortega",
+      "popularity": 22.5838,
+      "profile_path": "/7oUAtVgZU0uLdUSvDHKkINt1y7Y.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+          "id": 119051,
+          "name": "Wandinha",
+          "original_name": "Wednesday",
+          "overview": "Inteligente, sarcástica e apática, Wandinha Addams pode estar meio morta por dentro, mas na Escola Nunca Mais ela vai fazer amigos, inimigos e investigar assassinatos.",
+          "poster_path": "/ooBR3qulC40ws0QkYBUAYFKmLRE.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            10765,
+            9648,
+            35
+          ],
+          "popularity": 35.3111,
+          "first_air_date": "2022-11-23",
+          "vote_average": 8.4,
+          "vote_count": 9077,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/70Rm9ItxKuEKN8iu6rNjfwAYUCJ.jpg",
+          "id": 760104,
+          "title": "X: A Marca da Morte",
+          "original_title": "X",
+          "overview": "Em 1979, um grupo de jovens cineastas se propôs a fazer um filme adulto na zona rural do Texas, mas quando seus solitários e idosos anfitriões os pegam em flagrante, o elenco se vê lutando por suas vidas.",
+          "poster_path": "/As5dKK7fLOlCyVwjqoW5pyiDz6D.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "popularity": 12.552,
+          "release_date": "2022-03-17",
+          "video": false,
+          "vote_average": 6.741,
+          "vote_count": 3528
+        },
+        {
+          "backdrop_path": "/ifUfE79O1raUwbaQRIB7XnFz5ZC.jpg",
+          "id": 646385,
+          "title": "Pânico",
+          "original_title": "Scream",
+          "overview": "Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade.",
+          "poster_path": "/oadFpqhJ26yxqIlYcGioZ2W3EHN.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "popularity": 11.5842,
+          "release_date": "2022-01-12",
+          "video": false,
+          "vote_average": 6.676,
+          "vote_count": 3474
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 1547148,
+      "known_for_department": "Acting",
+      "name": "Teo Briones",
+      "original_name": "Teo Briones",
+      "popularity": 21.0102,
+      "profile_path": "/1eDVJ9pzBQ5hWQv0pfRjWq2h7go.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/lyZmMTwpr6ZCXKA7lszpXcDwNOM.jpg",
+          "id": 90462,
+          "name": "Chucky",
+          "original_name": "Chucky",
+          "overview": "Depois que um boneco Chucky \"vintage\" aparece em uma venda de quintal, uma pequena e pacata cidade do interior norte americano é lançada no caos enquanto uma série de assassinatos horríveis começa a expor os segredos da localidade.",
+          "poster_path": "/sdCJbGkvnIsIKLxaFQrviriODVq.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            80,
+            35,
+            9648
+          ],
+          "popularity": 24.6225,
+          "first_air_date": "2021-10-12",
+          "vote_average": 7.8,
+          "vote_count": 4087,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/kQGxGXzYiCumY8kmXXpgbZyZQK8.jpg",
+          "id": 395834,
+          "title": "Terra Selvagem",
+          "original_title": "Wind River",
+          "overview": "Cory (Jeremy Renner), caçador de coiotes e predadores traumatizado pela morte da filha adolescente, encontra o corpo congelado de uma menina em meio ao nada e inicia uma investigação sobre o crime com o auxílio de uma agente novata do FBI (Elizabeth Olsen) que desconhece a região.",
+          "poster_path": "/qzwVKPWfPN4LR9Ex6Ux25N18ntW.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            80,
+            9648,
+            53
+          ],
+          "popularity": 9.0817,
+          "release_date": "2017-08-03",
+          "video": false,
+          "vote_average": 7.437,
+          "vote_count": 5385
+        },
+        {
+          "backdrop_path": "/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+          "id": 574475,
+          "title": "Premonição 6: Laços de Sangue",
+          "original_title": "Final Destination Bloodlines",
+          "overview": "Atormentada por um pesadelo violento recorrente, a estudante universitária Stefanie volta para casa para encontrar a única pessoa que pode quebrar o ciclo e salvar sua família do destino horrível que inevitavelmente os aguarda.",
+          "poster_path": "/j8c47GIu7kpNPi8gsSR8jQBjYBB.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            9648
+          ],
+          "popularity": 455.0084,
+          "release_date": "2025-05-14",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 450
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 1269,
+      "known_for_department": "Acting",
+      "name": "Kevin Costner",
+      "original_name": "Kevin Costner",
+      "popularity": 20.7587,
+      "profile_path": "/bykmxJHLfbFM3NT05RZXhx8YTzF.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/sF2REAiVUcN90lrMeLfmEuHJl4B.jpg",
+          "id": 117,
+          "title": "Os Intocáveis",
+          "original_title": "The Untouchables",
+          "overview": "Na Chicago dos anos 1930, o jovem agente federal Eliot Ness tenta acabar com o reinado de terror e corrupção instaurado pelo gângster Al Capone. Para isso, ele recruta um pequeno time de corajosos e incorruptíveis homens e conta com a ajuda do experiente policial Jim Malone.",
+          "poster_path": "/koEvh0qJ2cYdHD2fPGK6UGw7mo5.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            80,
+            36,
+            53
+          ],
+          "popularity": 6.1583,
+          "release_date": "1987-06-03",
+          "video": false,
+          "vote_average": 7.758,
+          "vote_count": 5818
+        },
+        {
+          "backdrop_path": "/ywWva4trKw7f3wtbz81Fe3FnrtC.jpg",
+          "id": 581,
+          "title": "Dança com Lobos",
+          "original_title": "Dances with Wolves",
+          "overview": "Durante a Guerra Civil, um jovem soldado pratica uma ato ousado, é considerado herói e vai servir por sua escolha em um lugar com forte predominância do povo Sioux. Com o tempo, ele assimila os costumes dos nativos, acontecendo uma aculturação às avessas.",
+          "poster_path": "/rhdrY0b7AftFnA6yaQXWLVHxDag.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            18,
+            37
+          ],
+          "popularity": 6.3891,
+          "release_date": "1990-03-30",
+          "video": false,
+          "vote_average": 7.844,
+          "vote_count": 4358
+        },
+        {
+          "backdrop_path": "/yaIu82UiD9QZEkKCGrAd8VAmc0V.jpg",
+          "id": 9804,
+          "title": "Waterworld: O Segredo das Águas",
+          "original_title": "Waterworld",
+          "overview": "Em meados do terceiro milênio, em razão do derretimento das calotas polares, a Terra se tornou um lugar sem terra sólida e a população vive em barcos ou em ilhas artificiais. Neste contexto, um ser anfíbio (Kevin Costner) vive comercializando tudo que é possível, inclusive terra pura e, após ser preso injustamente, é libertado por uma comerciante (Jeanne Tripplehorn) que exige que ele a leve embora e junto com eles uma garota (Tina Majorino), que tem nas costas o mapa para se chegar a Terraseca, o único local com terra firme. Mas o chefe (Dennis Hopper) de uma gangue resolve persegui-los, pois também deseja encontrar este local.",
+          "poster_path": "/2mB4iPYJTwpHq3xJ2nz52wxBp5r.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            28,
+            878
+          ],
+          "popularity": 6.6892,
+          "release_date": "1995-07-28",
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 3787
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 109513,
+      "known_for_department": "Acting",
+      "name": "Alexandra Daddario",
+      "original_name": "Alexandra Daddario",
+      "popularity": 19.8031,
+      "profile_path": "/lh5zibQXYH1MNqkuX8TmxyNYHhK.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/zcySy6dnSmyqiichtDgO7AEeZoq.jpg",
+          "id": 254128,
+          "title": "Terremoto: A Falha de San Andreas",
+          "original_title": "San Andreas",
+          "overview": "Um forte terremoto atinge a Califórnia e faz com que Ray, um bombeiro especializado em resgates com helicópteros, tenha que percorrer o estado ao lado da ex-esposa para resgatar a sua filha Blake.",
+          "poster_path": "/y0Xi03TuBe5PMylesEmKSVguSkN.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            18,
+            53
+          ],
+          "popularity": 9.5327,
+          "release_date": "2015-05-27",
+          "video": false,
+          "vote_average": 6.245,
+          "vote_count": 8691
+        },
+        {
+          "backdrop_path": "/ugiV9SpJburMOPeIyjBJyAnO1So.jpg",
+          "id": 32657,
+          "title": "Percy Jackson e o Ladrão de Raios",
+          "original_title": "Percy Jackson & the Olympians: The Lightning Thief",
+          "overview": "Ambientado no mundo atual, onde os doze deuses do Olimpo (instalados 600 andares acima do planeta, no edifício Empire State Building, em Nova York) estão vivos e criando uma nova raça de jovens heróis mitológicos que são semideuses metade mortais, metade imortais, Zeus suspeita que Percy, filho adolescente de Poseidon, tenha roubado seu raio, a arma mais poderosa do universo. Para provar sua inocência e evitar uma guerra devastadora entre os deuses, Percy embarca numa odisséia transcontinental com o objetivo de encontrar o verdadeiro ladrão. Ao longo do caminho, ele enfrenta inimigos cruéis decididos a detê-lo, e salva sua mãe das garras assassinas de outro deus grego, Hades.",
+          "poster_path": "/bcTRDr6wTCEjSeXCGEmHrGhwPqf.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            12,
+            14,
+            10751
+          ],
+          "popularity": 10.8863,
+          "release_date": "2010-02-01",
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 7556
+        },
+        {
+          "backdrop_path": "/6QmX2BDVr1hIOIPHqnxvp1C1ZZp.jpg",
+          "id": 339846,
+          "title": "Baywatch: S.O.S. Malibu",
+          "original_title": "Baywatch",
+          "overview": "Quando uma perigosa onda de crime atinge o local, o lendário tenente Mitch Buchannon aciona seu esquadrão de elite de salva-vidas durões, para provar que não é preciso usar um distintivo para cumprir sua missão. Junto com um trio de fortes recrutas, incluindo o ex-olímpico Matt Brody, eles vão deixar o surfe de lado e fazer de tudo para derrotar uma cruel empresária, cujos planos infames ameaçam o futuro da praia.",
+          "poster_path": "/im8xzHCqMAS0RfVeld3cevqNYAc.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            28,
+            80
+          ],
+          "popularity": 9.9383,
+          "release_date": "2017-05-25",
+          "video": false,
+          "vote_average": 6.092,
+          "vote_count": 8192
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 224513,
+      "known_for_department": "Acting",
+      "name": "Ana de Armas",
+      "original_name": "Ana de Armas",
+      "popularity": 19.6822,
+      "profile_path": "/3vxvsmYLTf4jnr163SUlBIw51ee.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/9AU3kxNMM6AGofeC1uOtm4etsNj.jpg",
+          "id": 335984,
+          "title": "Blade Runner 2049",
+          "original_title": "Blade Runner 2049",
+          "overview": "Trinta anos após os acontecimentos do primeiro filme, um novo blade runner, o oficial K da polícia de Los Angeles, desenterra um segredo há muito enterrado que tem o potencial de mergulhar o que resta da sociedade no caos. A descoberta de K o leva a uma busca para encontrar Rick Deckard, um ex-blade runner do LAPD que está desaparecido há 30 anos.",
+          "poster_path": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            18
+          ],
+          "popularity": 21.1327,
+          "release_date": "2017-10-04",
+          "video": false,
+          "vote_average": 7.581,
+          "vote_count": 14145
+        },
+        {
+          "backdrop_path": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+          "id": 546554,
+          "title": "Entre Facas e Segredos",
+          "original_title": "Knives Out",
+          "overview": "Após comemorar 85 anos de idade, o famoso escritor de histórias policiais Harlan Thrombey é encontrado morto dentro de sua propriedade. Logo, o detetive Benoit Blanc é contratado para investigar o caso e descobre que, entre os funcionários misteriosos e a família conflituosa de Harlan, todos podem ser considerados suspeitos do crime.",
+          "poster_path": "/eOyvpdTQr5RUb0GKd61lzgKU5uz.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            80,
+            9648
+          ],
+          "popularity": 15.0749,
+          "release_date": "2019-11-27",
+          "video": false,
+          "vote_average": 7.843,
+          "vote_count": 12869
+        },
+        {
+          "backdrop_path": "/oNoprEND25zXR6Fns8cIZUkuoMc.jpg",
+          "id": 308266,
+          "title": "Cães de Guerra",
+          "original_title": "War Dogs",
+          "overview": "Após uma experiência mal sucedida em fazer negócios com o governo, dois amigos moradores de Miami Beach, que levam uma vida tranquila e que só queriam dinheiro para sustentar seu vício em maconha, descobrem que existe um mercado ilícito em expansão com a venda de armas para o exterior. Ao fechar um contrato de 300 milhões de dólares, eles terão de ir para o Afeganistão acompanhar a explosiva transação pessoalmente.",
+          "poster_path": "/39Wqg43QEm1DYptJoZPCK1R7OWJ.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            80,
+            18
+          ],
+          "popularity": 11.8963,
+          "release_date": "2016-08-18",
+          "video": false,
+          "vote_average": 6.924,
+          "vote_count": 5086
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 1373737,
+      "known_for_department": "Acting",
+      "name": "Florence Pugh",
+      "original_name": "Florence Pugh",
+      "popularity": 19.4416,
+      "profile_path": "/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/aAM3cQmYGjjLQ24m0F0RWfjKQ57.jpg",
+          "id": 530385,
+          "title": "Midsommar: O Mal Não Espera a Noite",
+          "original_title": "Midsommar",
+          "overview": "Dani e Christian formam um jovem casal americano com um relacionamento prestes a desmoronar. Mas depois que uma tragédia familiar os mantém juntos, Dani, que está de luto, convida-se para se juntar a Christian e seus amigos em uma viagem para um festival de verão único em uma remota vila sueca. O que começa como férias despreocupadas de verão em uma terra de luz eterna toma um rumo sinistro quando os moradores do vilarejo convidam o grupo a participar de festividades que tornam o paraíso pastoral cada vez mais preocupante e visceralmente perturbador.",
+          "poster_path": "/hR4dXPlWq5Nekwjqbp3gFGeiiZS.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            18,
+            9648
+          ],
+          "popularity": 12.5469,
+          "release_date": "2019-07-03",
+          "video": false,
+          "vote_average": 7.153,
+          "vote_count": 7421
+        },
+        {
+          "backdrop_path": "/dq18nCTTLpy9PmtzZI6Y2yAgdw5.jpg",
+          "id": 497698,
+          "title": "Viúva Negra",
+          "original_title": "Black Widow",
+          "overview": "Natasha Romanoff, também conhecida como Viúva Negra, confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado. Perseguida por uma força implacável disposta a tudo para destruí-la, Natasha precisa agora lidar com seu passado como espiã e com as relações que deixou para trás muito antes de se tornar uma Vingadora.",
+          "poster_path": "/1olJMMIUYkV6XwET1xRIROqYkxO.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            12,
+            878
+          ],
+          "popularity": 15.5337,
+          "release_date": "2021-07-07",
+          "video": false,
+          "vote_average": 7.207,
+          "vote_count": 10555
+        },
+        {
+          "backdrop_path": "/tfCNMP37jRX3TOetuce7FLkxNKa.jpg",
+          "id": 619730,
+          "title": "Não Se Preocupe, Querida",
+          "original_title": "Don't Worry Darling",
+          "overview": "Alice e Jack têm a sorte de viver na comunidade idealizada de Victory, a cidade experimental da empresa que abriga os homens que trabalham para o ultra-secreto Projeto Victory e suas famílias. Mas quando rachaduras em sua vida idílica começam a aparecer, expondo flashes de algo muito mais sinistro à espreita sob a fachada atraente, Alice não pode deixar de questionar exatamente o que eles estão fazendo em Victory e por quê.",
+          "poster_path": "/wkEuGtrwmQwk7U3FYzIYhmAwDhG.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            9648,
+            878,
+            53
+          ],
+          "popularity": 6.6949,
+          "release_date": "2022-09-21",
+          "video": false,
+          "vote_average": 6.801,
+          "vote_count": 2636
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 2524,
+      "known_for_department": "Acting",
+      "name": "Tom Hardy",
+      "original_name": "Tom Hardy",
+      "popularity": 19.0795,
+      "profile_path": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+          "id": 76341,
+          "title": "Mad Max: Estrada da Fúria",
+          "original_title": "Mad Max: Fury Road",
+          "overview": "Em um mundo apocalíptico, Max Rockatansky acredita que a melhor forma de sobreviver é não depender de ninguém. Porém, após ser capturado pelo tirano Immortan Joe e seus rebeldes, Max se vê no meio de uma guerra mortal, iniciada pela imperatriz Furiosa que tenta salvar um grupo de garotas. Também tentando fugir, Max aceita ajudar Furiosa. Dessa vez, o tirano Joe está ainda mais implacável pois teve algo insubstituível roubado.",
+          "poster_path": "/mtgqrSlT47VsmeMVanLTny7BknB.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            28,
+            12,
+            878
+          ],
+          "popularity": 16.1711,
+          "release_date": "2015-05-13",
+          "video": false,
+          "vote_average": 7.622,
+          "vote_count": 23108
+        },
+        {
+          "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+          "id": 335983,
+          "title": "Venom",
+          "original_title": "Venom",
+          "overview": "O jornalista Eddie Brock desenvolve força e poder sobre-humanos quando seu corpo se funde com o alienígena Venom. Dominado pela raiva, Venom tenta controlar as novas e perigosas habilidades de Eddie.",
+          "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            28
+          ],
+          "popularity": 18.0664,
+          "release_date": "2018-09-28",
+          "video": false,
+          "vote_average": 6.828,
+          "vote_count": 16549
+        },
+        {
+          "backdrop_path": "/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+          "id": 580489,
+          "title": "Venom: Tempo de Carnificina",
+          "original_title": "Venom: Let There Be Carnage",
+          "overview": "Em busca de seu próximo furo de reportagem, o jornalista Eddie Brock consegue uma entrevista exclusiva com Cletus Kasady, um assassino no corredor da morte, que descobre o segredo de Eddie e se torna o hospedeiro de Carnificina, um simbionte aterrorizante e ameaçador. Eddie e Venom precisam superar sua relação atribulada e trabalhar em conjunto para derrotar Carnificina.",
+          "poster_path": "/h5UzYZquMwO9FVn15R2eK2itmHu.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            28,
+            12
+          ],
+          "popularity": 13.6647,
+          "release_date": "2021-09-30",
+          "video": false,
+          "vote_average": 6.773,
+          "vote_count": 10666
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 18277,
+      "known_for_department": "Acting",
+      "name": "Sandra Bullock",
+      "original_name": "Sandra Bullock",
+      "popularity": 18.9959,
+      "profile_path": "/hPHGKPAWZ8gArYXMk225rrYPoyJ.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/npFPqZeHlEPOlLEpykP6kuSsi6v.jpg",
+          "id": 49047,
+          "title": "Gravidade",
+          "original_title": "Gravity",
+          "overview": "Matt Kowalski é um astronauta experiente que está em missão de conserto ao telescópio Hubble juntamente com a doutora Ryan Stone. Ambos são surpreendidos por uma chuva de destroços decorrente da destruição de um satélite por um míssil russo, que faz com que sejam jogados no espaço sideral. Sem qualquer apoio da base terrestre da NASA, eles precisam encontrar um meio de sobreviver em meio a um ambiente completamente inóspito para a vida humana.",
+          "poster_path": "/eHLufJ1bHy4PtEBJdPSTu4jIhZ0.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            878,
+            53,
+            18
+          ],
+          "popularity": 7.9938,
+          "release_date": "2013-10-03",
+          "video": false,
+          "vote_average": 7.162,
+          "vote_count": 15610
+        },
+        {
+          "backdrop_path": "/wKrxeY6lbu7KFBsWVcMH6M8avwr.jpg",
+          "id": 211672,
+          "title": "Minions",
+          "original_title": "Minions",
+          "overview": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.",
+          "poster_path": "/zBpMdcxJelRvA7VPaF9GvoH5sZv.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            10751,
+            16,
+            12,
+            35
+          ],
+          "popularity": 6.3338,
+          "release_date": "2015-06-17",
+          "video": false,
+          "vote_average": 6.412,
+          "vote_count": 10716
+        },
+        {
+          "backdrop_path": "/pDKFL1zcHzEpmz4MJA5JJnRbJeD.jpg",
+          "id": 405774,
+          "title": "Bird Box",
+          "original_title": "Bird Box",
+          "overview": "Uma misteriosa presença dizima grande parte da sociedade. Cinco anos depois, uma sobrevivente e seus dois filhos saem em busca de um abrigo seguro.",
+          "poster_path": "/fiqsYTrNpo9MNuWHu7Bb9Tjrv2V.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            27,
+            53,
+            18
+          ],
+          "popularity": 7.269,
+          "release_date": "2018-12-13",
+          "video": false,
+          "vote_average": 6.832,
+          "vote_count": 10121
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 1717244,
+      "known_for_department": "Acting",
+      "name": "Trevor F. Salter",
+      "original_name": "Trevor F. Salter",
+      "popularity": 18.8401,
+      "profile_path": "/rz64J9kzv1PQX3t87nNx6tDgSHj.jpg",
+      "known_for": [
+        {
+          "backdrop_path": "/buqelo9doOLvFDMWhXmQ3FcH5HS.jpg",
+          "id": 275601,
+          "title": "Ricki and the Flash: De Volta pra Casa",
+          "original_title": "Ricki and the Flash",
+          "overview": "Com mais de 50 anos de idade, Ricki é uma cantora de rock, que sempre se apresenta com a banda The Flash em um pequeno bar. A situação financeira é precária, e ela não vê os filhos adultos há décadas. Um dia, o ex-marido Pete liga para Ricki, avisando que a filha Julie foi abandonada pelo marido, e pedindo ajuda para tirá-la de um estado depressivo. Reticente, a mãe retorna ao lar, e descobre que tanto Julie quanto seus dois irmãos têm muito ressentimento por causa do abandono quando eram crianças. Essa é a oportunidade para Ricki fazer as pazes e tentar ser mais presente na vida deles.",
+          "poster_path": "/wdHlB6EYUrrrIh96nvuaKnyK88A.jpg",
+          "media_type": "movie",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            18,
+            10402
+          ],
+          "popularity": 1.301,
+          "release_date": "2015-07-10",
+          "video": false,
+          "vote_average": 5.8,
+          "vote_count": 716
+        },
+        {
+          "backdrop_path": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+          "id": 92783,
+          "name": "Mulher-Hulk: Defensora de Heróis",
+          "original_name": "She-Hulk: Attorney at Law",
+          "overview": "Jennifer Walters — uma advogada especializada em casos envolvendo super-humanos — deve lidar com a complicada vida de uma mulher solteira de trinta e poucos anos que, por acaso, é uma hulk superpoderosa de 2 metros.",
+          "poster_path": "/5o8Nw4mBCqyO5dtfpPAZXjv5XJ2.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            10765
+          ],
+          "popularity": 14.5491,
+          "first_air_date": "2022-08-18",
+          "vote_average": 6.182,
+          "vote_count": 2303,
+          "origin_country": [
+            "US"
+          ]
+        },
+        {
+          "backdrop_path": "/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
+          "id": 32692,
+          "name": "Sangue Azul",
+          "original_name": "Blue Bloods",
+          "overview": "Uma família composta por membros que trabalham a favor da lei, cada um à sua maneira: o avô era policial, o pai também o é, um dos filhos é um policial que gosta de usar a violência nos interrogatórios, o outro filho é um recém-saído da academia de polícia e a filha é uma advogada do Estado. Nada os detém na hora de fazerem justiça e a sua ocupação é mais do que um trabalho: é uma questão de família.",
+          "poster_path": "/ovcXCEON7zvzAfJZKOywW132JwB.jpg",
+          "media_type": "tv",
+          "adult": false,
+          "original_language": "en",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "popularity": 109.8044,
+          "first_air_date": "2010-09-24",
+          "vote_average": 7.806,
+          "vote_count": 924,
+          "origin_country": [
+            "US"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_pages": 203591,
+  "total_results": 4071805
+}

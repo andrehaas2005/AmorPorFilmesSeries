@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1630"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "79BB3F9C2DE7D30800804CB4"
+               BuildableName = "AmorPorFilmesSeries.app"
+               BlueprintName = "AmorPorFilmesSeries"
+               ReferencedContainer = "container:AmorPorFilmesSeries.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "79BB3FB22DE7D30A00804CB4"
+               BuildableName = "AmorPorFilmesSeriesTests.xctest"
+               BlueprintName = "AmorPorFilmesSeriesTests"
+               ReferencedContainer = "container:AmorPorFilmesSeries.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "79BB3FBC2DE7D30A00804CB4"
+               BuildableName = "AmorPorFilmesSeriesUITests.xctest"
+               BlueprintName = "AmorPorFilmesSeriesUITests"
+               ReferencedContainer = "container:AmorPorFilmesSeries.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "79BB3F9C2DE7D30800804CB4"
+            BuildableName = "AmorPorFilmesSeries.app"
+            BlueprintName = "AmorPorFilmesSeries"
+            ReferencedContainer = "container:AmorPorFilmesSeries.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "BASE_URL"
+            value = "https://api.themoviedb.org/3/movie/"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "API_KEY"
+            value = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZmIwOGRlZTQ2NTFjM2Q5YjE1MzZhNjllYTNmM2QxNiIsIm5iZiI6MTQyMDQ3MTA3MC44MDcwMDAyLCJzdWIiOiI1NGFhYWIxZWMzYTM2ODBjMzAwMDc0MjEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.O5QokbNrnxRhRqEdR8kq3Zvd0S1TkON2uFg-JwdOzOE"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "79BB3F9C2DE7D30800804CB4"
+            BuildableName = "AmorPorFilmesSeries.app"
+            BlueprintName = "AmorPorFilmesSeries"
+            ReferencedContainer = "container:AmorPorFilmesSeries.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,397 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        878
+      ],
+      "id": 552524,
+      "original_language": "en",
+      "original_title": "Lilo & Stitch",
+      "overview": "Uma menina havaiana solitária faz amizade com um alienígena fugitivo, ajudando a remendar sua família fragmentada.",
+      "popularity": 752.4197,
+      "poster_path": "/toLU4HzWf2iKqPbElKPDypKNGTr.jpg",
+      "release_date": "2025-05-17",
+      "title": "Lilo & Stitch",
+      "video": false,
+      "vote_average": 7.048,
+      "vote_count": 250
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        14
+      ],
+      "id": 950387,
+      "original_language": "en",
+      "original_title": "A Minecraft Movie",
+      "overview": "Quatro desajustados enfrentam problemas comuns do dia a dia quando, de repente, são sugados por um portal misterioso para o Overworld: uma terra fascinante e cúbica, movida pela imaginação. Para voltarem para casa, eles precisarão dominar esse novo mundo enquanto embarcam em uma jornada mágica ao lado de um crafter experiente e inesperado: Steve.",
+      "popularity": 580.1825,
+      "poster_path": "/4VtkIaj76TpQNfhDHXQDdT9uBN5.jpg",
+      "release_date": "2025-03-31",
+      "title": "Um Filme Minecraft",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 1496
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 574475,
+      "original_language": "en",
+      "original_title": "Final Destination Bloodlines",
+      "overview": "Atormentada por um pesadelo violento recorrente, a estudante universitária Stefanie volta para casa para encontrar a única pessoa que pode quebrar o ciclo e salvar sua família do destino horrível que inevitavelmente os aguarda.",
+      "popularity": 455.0084,
+      "poster_path": "/j8c47GIu7kpNPi8gsSR8jQBjYBB.jpg",
+      "release_date": "2025-05-14",
+      "title": "Premonição 6: Laços de Sangue",
+      "video": false,
+      "vote_average": 7.013,
+      "vote_count": 453
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/icFWIk1KfkWLZnugZAJEDauNZ94.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1232546,
+      "original_language": "en",
+      "original_title": "Until Dawn",
+      "overview": "Um ano após o misterioso desaparecimento de sua irmã Melanie, Clover e seus amigos partem para o vale remoto onde o desaparecimento aconteceu em busca de respostas. Ao explorarem um centro de visitantes abandonado, eles acabam sendo caçados por um assassino mascarado e mortos brutalmente um a um... apenas para acordarem no dia seguinte e se encontrarem novamente no começo da mesma tarde. Presos no vale, eles são forçados a reviverem a mesma noite de novo e de novo, com a única mudança sendo a ameaça assassina, cada vez mais assustadora que a última. Com as esperanças no fim, o grupo logo percebe que eles têm apenas mais um limitado número de mortes disponível, e que a única maneira de escaparem é se sobreviverem até o amanhecer.",
+      "popularity": 355.973,
+      "poster_path": "/mUSwXnXI2uZbE7ymwTK28S6QzD1.jpg",
+      "release_date": "2025-04-23",
+      "title": "Until Dawn: Noite de Terror",
+      "video": false,
+      "vote_average": 6.467,
+      "vote_count": 423
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1p5aI299YBnqrEEvVGJERk2MXXb.jpg",
+      "genre_ids": [
+        28,
+        12,
+        53
+      ],
+      "id": 575265,
+      "original_language": "en",
+      "original_title": "Mission: Impossible - The Final Reckoning",
+      "overview": "Depois de escapar de um acidente de trem calamitoso, Ethan percebe que a Entidade está escondida a bordo de um antigo submarino russo, mas um inimigo do seu passado chamado Gabriel também está no encalço.",
+      "popularity": 327.9452,
+      "poster_path": "/cxcwecY0CnG1vHX58WOJjmCVDnl.jpg",
+      "release_date": "2025-05-17",
+      "title": "Missão: Impossível - O Acerto Final",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 393
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1197306,
+      "original_language": "en",
+      "original_title": "A Working Man",
+      "overview": "Ele quer viver uma vida simples e ser um bom pai para sua filha. Mas quando a filha adolescente de seu chefe, Jenny, desaparece, ele é chamado para reempregar as habilidades que o tornaram uma figura lendária nas operações secretas.",
+      "popularity": 292.2985,
+      "poster_path": "/8T6N3NJd8p464uj6ydoPbWwprys.jpg",
+      "release_date": "2025-03-26",
+      "title": "Resgate Implacável",
+      "video": false,
+      "vote_average": 6.675,
+      "vote_count": 1033
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aESb695wTIF0tB7RTGRebnYrjFK.jpg",
+      "genre_ids": [
+        12,
+        14,
+        9648
+      ],
+      "id": 1098006,
+      "original_language": "en",
+      "original_title": "Fountain of Youth",
+      "overview": "Um gênio da caça ao tesouro reúne uma equipe para uma aventura que pode mudar sua vida. Mas para enganar e fugir das ameaças a cada passo, ele precisará de alguém ainda mais inteligente do que ele: sua distante irmã.",
+      "popularity": 265.848,
+      "poster_path": "/hzuWNKN19wzVsjH1RtJXzjat5Tb.jpg",
+      "release_date": "2025-05-19",
+      "title": "A Fonte da Juventude",
+      "video": false,
+      "vote_average": 6.52,
+      "vote_count": 246
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qspghhpOyaBGgZDJoCbV2o9WNMU.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1001414,
+      "original_language": "en",
+      "original_title": "Fear Street: Prom Queen",
+      "overview": "Quem será a rainha do baile do Shadyside High de 1988? Para Lori, a competição sempre foi implacável. E a situação piora quando alguém começa a matar as candidatas.",
+      "popularity": 253.839,
+      "poster_path": "/skwydfnpaQdRQZfXMroh59FMJyY.jpg",
+      "release_date": "2025-05-23",
+      "title": "Rua do Medo: Rainha do Baile",
+      "video": false,
+      "vote_average": 5.419,
+      "vote_count": 178
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/dJ1JpHuTCRxtGpRq8bQzk2jBqTi.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        12
+      ],
+      "id": 896536,
+      "original_language": "en",
+      "original_title": "The Legend of Ochi",
+      "overview": "Em uma vila remota na ilha de Carpathia, uma tímida garota de fazenda chamada Yuri foi criada para temer uma espécie animal conhecida como Ochi. Mas, quando Yuri descobre que um bebê Ochi ferido foi abandonado, ela parte em uma aventura para levá-lo para casa.",
+      "popularity": 232.6767,
+      "poster_path": "/WqxyyacuNBonVEm3VVh01BK1a3.jpg",
+      "release_date": "2025-04-18",
+      "title": "A Lenda de Ochi",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 82
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cJvUJEEQ86LSjl4gFLkYpdCJC96.jpg",
+      "genre_ids": [
+        10752,
+        28
+      ],
+      "id": 1241436,
+      "original_language": "en",
+      "original_title": "Warfare",
+      "overview": "No longa, um grupo de militares se encontra no meio de um fogo cruzado com tropas guerrilheiras iraquianas. Escondidos numa casa bem no centro da província ocupada pelas forças da Al Qaeda, os militares americanos vigiam as ruas em busca de seus inimigos, preparando-se para atacar a qualquer sinal de insurgência. Quando uma granada inesperada explode o esconderijo do grupo, o caos se instala e a necessidade de evacuar se torna o principal e mais difícil objetivo dos fuzileiros. Enquanto esperam resgate, uma troca de tiros intensa causa mortos e feridos, deixando um rastro de escombros e traumas.\r O filme se passa na Guerra do Iraque com uma trama inspirada nas memórias e experiências vividas pelo co-diretor Ray Mendonza, ex-fuzileiro naval do exército americano.",
+      "popularity": 228.148,
+      "poster_path": "/rSEAmWjRWOpoZyV7Xh3VjZNsQT2.jpg",
+      "release_date": "2025-04-09",
+      "title": "Tempo de Guerra",
+      "video": false,
+      "vote_average": 7.283,
+      "vote_count": 443
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tyfO9jHgkhypUFizRVYD0bytPjP.jpg",
+      "genre_ids": [
+        10751,
+        14
+      ],
+      "id": 447273,
+      "original_language": "en",
+      "original_title": "Snow White",
+      "overview": "Quando a Rainha Má manda matarem sua enteada por inveja de sua beleza, Branca de Neve foge do reino. Ela percorre a floresta e acha uma casinha onde vivem sete anões amigáveis com quem passa viver. Porém, a moça ainda não está a salvo, já que a bruxa planeja dar um fim a sua vida com uma maçã envenenada.",
+      "popularity": 220.9169,
+      "poster_path": "/t0mabA2l3KE9Ai350BEKz61Ltor.jpg",
+      "release_date": "2025-03-12",
+      "title": "Branca de Neve",
+      "video": false,
+      "vote_average": 4.297,
+      "vote_count": 960
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jRvhP4AfFnJ03lCQhp1fie7XPSd.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 977294,
+      "original_language": "en",
+      "original_title": "Tin Soldier",
+      "overview": "Um ex-agente das forças especiais busca vingança contra um líder de culto que corrompeu seus antigos companheiros, os Shinjas. Este líder, conhecido como Bokushi, promete aos veteranos um propósito e proteção, mas se revela uma influência destrutiva. O ex-soldado, Nash Cavanaugh, une forças com o agente militar Emmanuel Ashburn para se infiltrar na fortaleza dos Bokushi e expor seu reinado de terror.",
+      "popularity": 185.0718,
+      "poster_path": "/oG5LTrvq1hmPO7Kfsl8q236Vy0Y.jpg",
+      "release_date": "2025-05-22",
+      "title": "Soldado Tin",
+      "video": false,
+      "vote_average": 5.149,
+      "vote_count": 37
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/v6MPbA9ev0yttbILLjGOo2nh31h.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 1480799,
+      "original_language": "pt",
+      "original_title": "The Great Escape",
+      "overview": "Bob é um poderoso mafioso, envolvido em uma série de atividades ilegais como tráfico de armas e lavagem de dinheiro. Mas o seu reinado pode estar com os dias contados após sua família ser atacada pelo seu pior inimigo.",
+      "popularity": 181.5985,
+      "poster_path": "/cc41H0tGevbGc8mMbVlkygoGYBH.jpg",
+      "release_date": "2023-05-26",
+      "title": "A Máfia não Perdoa",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/d5aBTObiUzqGZMohXtQKY4FMGvb.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1297028,
+      "original_language": "en",
+      "original_title": "Rosario",
+      "overview": "Quando Rosario, uma empresária de sucesso, recebe a notícia da morte de sua avó distante, ela precisa voltar ao antigo apartamento da família. No entanto, uma forte nevasca a surpreende, obrigando-a a passar a noite no local. Cercada por vizinhos estranhos e por um silêncio cada vez mais inquietante, Rosario logo percebe que algo maligno e ancestral habita aquele lugar. Ao descobrir uma maldição que atravessa gerações, ela precisará enfrentar os segredos enterrados de sua família para proteger não apenas a própria vida, mas também sua alma.",
+      "popularity": 180.9918,
+      "poster_path": "/beLZhuHT97849WkWgty2X1hkWUa.jpg",
+      "release_date": "2025-05-01",
+      "title": "Rosario",
+      "video": false,
+      "vote_average": 4.826,
+      "vote_count": 23
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aIglP9Z5gtkQf7Fidb4NRv2gfDj.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35
+      ],
+      "id": 11544,
+      "original_language": "en",
+      "original_title": "Lilo & Stitch",
+      "overview": "Lilo é uma garotinha de cinco anos que ama cuidar de animais. Um dia ela adota um cachorro e decide chamá-lo de Stitch. O que ela não sabe é que Stitch é um alienígena e um dos criminosos mais perigosos da galáxia. Agora, para escapar de seus captores que ainda o persegue, Stitch decide se passar por um cachorro comum, criando com o tempo um laço de amizade com Lilo.",
+      "popularity": 164.2947,
+      "poster_path": "/ottRXMCQ9jPB318syTcfIdtJWIE.jpg",
+      "release_date": "2002-06-21",
+      "title": "Lilo & Stitch",
+      "video": false,
+      "vote_average": 7.543,
+      "vote_count": 6526
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xLhVwypEHzgcUhRzpCweDUEvtzG.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 1257960,
+      "original_language": "hi",
+      "original_title": "सिकंदर",
+      "overview": "Um trágico acidente leva o poderoso Sikandar a proteger os menos afortunados, usando de todos os meios para enfrentar a corrupção e a ganância.",
+      "popularity": 154.0864,
+      "poster_path": "/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+      "release_date": "2025-03-29",
+      "title": "Sikandar",
+      "video": false,
+      "vote_average": 4.8,
+      "vote_count": 21
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "id": 986056,
+      "original_language": "en",
+      "original_title": "Thunderbolts*",
+      "overview": "Depois de se verem presos em uma armadilha mortal, uma equipe não convencional de anti-heróis deve embarcar em uma missão perigosa que os forçará a confrontar os cantos mais sombrios de seus passados.",
+      "popularity": 151.6064,
+      "poster_path": "/eKD2p840nsRXLUR25ciVsNMJgOB.jpg",
+      "release_date": "2025-04-30",
+      "title": "Thunderbolts*",
+      "video": false,
+      "vote_average": 7.442,
+      "vote_count": 1008
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/14UFWFJsGeInCbhTiehRLTff4Yx.jpg",
+      "genre_ids": [
+        53,
+        28
+      ],
+      "id": 1233069,
+      "original_language": "de",
+      "original_title": "Exterritorial",
+      "overview": "O filho da ex-militar Sara desapareceu em um consulado americano. Ela fará de tudo para encontrá-lo, inclusive encarar uma conspiração sombria.",
+      "popularity": 148.7892,
+      "poster_path": "/wqllCospPViEt7AeYIl4ZskKdSj.jpg",
+      "release_date": "2025-04-29",
+      "title": "Exterritorial",
+      "video": false,
+      "vote_average": 6.716,
+      "vote_count": 402
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jmLfuMFn6o4Rkp7dzT57Vp2GpoQ.jpg",
+      "genre_ids": [
+        28,
+        18,
+        35
+      ],
+      "id": 897160,
+      "original_language": "ko",
+      "original_title": "용감한 시민",
+      "overview": "",
+      "popularity": 143.3373,
+      "poster_path": "/oVJDtwC41sGx5zmWiEkhqwBlopD.jpg",
+      "release_date": "2023-10-25",
+      "title": "용감한 시민",
+      "video": false,
+      "vote_average": 6.791,
+      "vote_count": 43
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/op3qmNhvwEvyT7UFyPbIfQmKriB.jpg",
+      "genre_ids": [
+        28,
+        14,
+        12
+      ],
+      "id": 324544,
+      "original_language": "en",
+      "original_title": "In the Lost Lands",
+      "overview": "Uma rainha, desesperada para ganhar o dom da mudança de forma, toma uma atitude ousada: contrata a feiticeira Gray Alys, uma mulher tão temida quanto poderosa. Enviada para a selva fantasmagórica das Terras Perdidas, Alys e seu guia, o andarilho Boyce, devem enganar e lutar contra o homem e o diabo em uma fábula que explora a natureza do bem e do mal, da dívida e da satisfação, do amor e da perda.",
+      "popularity": 139.7747,
+      "poster_path": "/hSljn1jfCClIbHNdlz6cWQEjncV.jpg",
+      "release_date": "2025-02-27",
+      "title": "Nas Terras Perdidas",
+      "video": false,
+      "vote_average": 6.399,
+      "vote_count": 393
+    }
+  ],
+  "total_pages": 50602,
+  "total_results": 1012031
+}
