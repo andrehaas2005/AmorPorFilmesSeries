@@ -44,7 +44,13 @@ class MovieCarouselCell: UICollectionViewCell {
         contentView.addSubview(titleLabel)
 
         movieImageView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+            //            make.edges.equalToSuperview()
+            make.leading.equalToSuperview().offset(20)
+            make.trailing.equalToSuperview().inset(20)
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview().inset(24)
+            make.height.equalTo(200)
+            make.width.equalTo(150)
         }
         
 

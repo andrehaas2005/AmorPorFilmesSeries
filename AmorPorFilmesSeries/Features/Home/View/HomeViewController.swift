@@ -28,7 +28,7 @@ class HomeViewController: UIViewController {
         layout.scrollDirection = .horizontal
         layout.estimatedItemSize = CGSize(width: 150, height: 200) // Tamanho estimado da célula
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .gray
+        collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "MovieCell")
         return collectionView
@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
         layout.scrollDirection = .horizontal
         layout.estimatedItemSize = CGSize(width: 150, height: 200)
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .cyan
+        collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "MovieCell")
         return collectionView
@@ -138,7 +138,6 @@ class HomeViewController: UIViewController {
         stackView.axis = .vertical
         stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.inputView?.backgroundColor = .red
         view.addSubview(stackView)
         
         NSLayoutConstraint.activate([
@@ -167,6 +166,10 @@ class HomeViewController: UIViewController {
         label.text = title
         label.font = UIFont.boldSystemFont(ofSize: 20)
         label.textColor = .darkText
+        label.textAlignment = .center
+        label.snp.makeConstraints { make in
+            make.height.equalTo(18)
+        }
         return label
     }
     
@@ -206,7 +209,7 @@ class HomeViewController: UIViewController {
     }
 }
     // MARK: - UICollectionViewDataSource (Exemplo simplificado)
-    // Em uma implementação real, você teria um DataSource separado ou usaria DiffableDataSource.
+    // Em uma implementação real, teria um DataSource separado ou usaria DiffableDataSource.
     // Aqui, apenas para ilustrar a conexão.
     // Você precisaria de um delegate e datasource para cada collection view.
 
@@ -217,13 +220,11 @@ extension HomeViewController: UICollectionViewDataSource {
         } else if collectionView == upcomingCollectionView {
             return viewModel.upcomingMovies.value??.count ?? 0
         }
-        // ... e assim por diante para as outras collection views
         return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // Implementação da célula customizada para cada tipo de carrossel
-        // Exemplo:
         if collectionView == nowPlayingCollectionView {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier, for: indexPath) as? MovieCarouselCell else { return UICollectionViewCell() }
             if let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
@@ -241,7 +242,6 @@ extension HomeViewController: UICollectionViewDelegate {
         if collectionView == nowPlayingCollectionView, let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
             delegate?.didSelectMovie(movie)
         }
-        // ... e assim por diante para as outras collection views
     }
 }
 
