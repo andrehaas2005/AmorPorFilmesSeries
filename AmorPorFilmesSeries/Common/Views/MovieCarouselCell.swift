@@ -12,16 +12,16 @@ import Kingfisher
 import SnapKit
 
 class MovieCarouselCell: UICollectionViewCell {
-
+    
     static let identifier = "MovieCell"
-
+    
     private let movieImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
     }()
-
+    
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.textColor = .white
@@ -29,46 +29,40 @@ class MovieCarouselCell: UICollectionViewCell {
         label.numberOfLines = 2
         return label
     }()
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
     }
-
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     private func setupUI() {
         contentView.addSubview(movieImageView)
         contentView.addSubview(titleLabel)
-
+        
         movieImageView.snp.makeConstraints { make in
-            //            make.edges.equalToSuperview()
-            make.leading.equalToSuperview().offset(20)
-            make.trailing.equalToSuperview().inset(20)
-            make.top.equalToSuperview()
-            make.bottom.equalToSuperview().inset(24)
-            make.height.equalTo(200)
-            make.width.equalTo(150)
+            make.edges.equalToSuperview()
         }
         
-
+        
         titleLabel.snp.makeConstraints { make in
             make.leading.trailing.equalToSuperview().inset(8)
             make.bottom.equalToSuperview().inset(8)
         }
-
+        
         // Adiciona um gradiente para melhorar a legibilidade do título
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.withAlphaComponent(0.8).cgColor]
         gradientLayer.locations = [0.7, 1.0]
         layer.addSublayer(gradientLayer)
-
+        
         gradientLayer.frame = bounds // A frame será atualizada no layoutSubviews
         gradientLayer.masksToBounds = true
     }
-
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         // Atualiza o frame da layer de gradiente para acompanhar os bounds da célula
@@ -76,17 +70,17 @@ class MovieCarouselCell: UICollectionViewCell {
             gradientLayer.frame = bounds
         }
     }
-
+    
     override func prepareForReuse() {
         super.prepareForReuse()
         movieImageView.kf.cancelDownloadTask()
         movieImageView.image = nil
         titleLabel.text = nil
     }
-
+    
     func configure(with movie: Movie) {
         titleLabel.text = movie.title
-
+        
         if !movie.posterPath.isEmpty {
             let imageURL = URL(string: Configuration.imageBaseURL + movie.posterPath)
             movieImageView.kf.setImage(with: imageURL)

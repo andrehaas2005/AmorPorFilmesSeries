@@ -18,7 +18,6 @@ class LoginCoordinator: Coordinator {
         let viewModel = LoginViewModel(authService: MockAuthService()) // Usar o serviço real aqui
         viewModel.coordinator = self
         let viewController = LoginViewController(viewModel: viewModel)
-        viewController.delegate = self
         navigationController.pushViewController(viewController, animated: false)
     }
 
@@ -29,15 +28,4 @@ class LoginCoordinator: Coordinator {
     func showSignUp() {
         parentCoordinator?.showSignUp()
     }
-}
-
-extension LoginCoordinator: LoginViewControllerDelegate {
-    func didTapSignUp() {
-        //HAAS
-    }
-    
-    func didLogIn() {
-        //Haas
-    }
-
 }

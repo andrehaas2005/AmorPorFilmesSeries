@@ -39,10 +39,15 @@ class LoginViewController: UIViewController {
         loginView.loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         loginView.signUpButton.addTarget(self, action: #selector(signUpButtonTapped), for: .touchUpInside)
     }
+    
+    private func setupUI() {
+        view.backgroundColor = .cyan
+    }
 
     private func setupBindings() {
         viewModel.errorMessage.bind { [weak self] message in
             guard let self = self, let message = message else { return }
+            
             // Mostrar mensagem de erro na UI
             let alert = UIAlertController(title: "Erro", message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
@@ -67,7 +72,7 @@ class LoginViewController: UIViewController {
     }
 
     @objc private func signUpButtonTapped() {
-        delegate?.didTapSignUp()
+        viewModel.navigateToSignUp()
     }
 }
 

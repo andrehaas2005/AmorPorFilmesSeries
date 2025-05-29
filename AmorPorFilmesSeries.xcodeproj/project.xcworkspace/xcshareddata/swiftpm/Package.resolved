@@ -1,5 +1,5 @@
 {
-  "originHash" : "86abe4602cb0f4897aaee2b9973be82e1655950f9c2ccbdeaee539455502ccd0",
+  "originHash" : "9c412e88d0859be7d533f62998cf9af1b3fe7889c1eaef6707f5d9acb7fe63db",
   "pins" : [
     {
       "identity" : "kingfisher",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "7deda23bbdca612076c5c315003d8638a08ed0f1",
         "version" : "8.3.2"
+      }
+    },
+    {
+      "identity" : "moduloservicemovie",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andrehaas2005/ModuloServiceMovie.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2e989541d2a2a010753948c47d972879b6cce488"
+      }
+    },
+    {
+      "identity" : "moduloserviceseries",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andrehaas2005/ModuloServiceSeries.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "95e67621b006672d288c6dc8f001d8544b697af8"
       }
     },
     {

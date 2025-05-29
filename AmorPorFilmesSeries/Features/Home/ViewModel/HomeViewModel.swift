@@ -19,17 +19,17 @@ public class HomeViewModel {
     let famousActors = Observable<[Actor]?>(nil)
     let recentlyWatchedMovies = Observable<[Movie]?>(nil)
     let lastWatchedSeriesEpisodes = Observable<[Serie]?>(nil)
-
+    
     let isLoading = Observable<Bool>(false)
     let errorMessage = Observable<String?>(nil)
-
+    
     weak var coordinator: HomeCoordinator? // Referência fraca ao coordenador
-
+    
     // Serviços injetados
     private let movieService: MovieServiceProtocol
     private let actorService: ActorServiceProtocol
     private let serieService: SerieServiceProtocol
-
+    
     // Injeção de dependência dos serviços
     init(movieService: MovieServiceProtocol, actorService: ActorServiceProtocol, serieService: SerieServiceProtocol) {
         self.movieService = movieService
@@ -41,14 +41,13 @@ public class HomeViewModel {
     func fetchHomeData() {
         isLoading.value = true
         errorMessage.value = nil // Limpa mensagens de erro anteriores
-
+        
         // Usar DispatchGroup para saber quando todas as chamadas de API foram concluídas.
         let dispatchGroup = DispatchGroup()
-
-        // Fetch Now Playing Movies
+        
         dispatchGroup.enter()
         
-        
+        // Fetch Now Playing Movies
         DispatchQueue.global().async { [weak self] in
             self?.movieService.fetchNowPlayingMovies { result in
                 defer { dispatchGroup.leave() }
@@ -81,7 +80,7 @@ public class HomeViewModel {
                 }
             }
         }
-
+        
         // Fetch Famous Actors
         dispatchGroup.enter()
         actorService.fetchFamousActors { [weak self] result in
@@ -95,7 +94,7 @@ public class HomeViewModel {
                 }
             }
         }
-
+        
         // Fetch Recently Watched Movies
         dispatchGroup.enter()
         movieService.fetchRecentlyWatchedMovies { [weak self] result in
@@ -109,7 +108,7 @@ public class HomeViewModel {
                 }
             }
         }
-
+        
         // Fetch Last Watched Series Episodes
         dispatchGroup.enter()
         serieService.fetchLastWatchedSeriesEpisodes { [weak self] result in
@@ -123,7 +122,7 @@ public class HomeViewModel {
                 }
             }
         }
-
+        
         // Notifica quando todas as chamadas de API foram concluídas.
         dispatchGroup.notify(queue: .main) { [weak self] in
             DispatchQueue.main.async {
@@ -131,17 +130,17 @@ public class HomeViewModel {
             }
         }
     }
-
+    
     /// Notifica o coordenador que um filme foi selecionado.
     func didSelectMovie(_ movie: Movie) {
         coordinator?.showMovieDetails(movie)
     }
-
+    
     /// Notifica o coordenador que uma série foi selecionada.
     func didSelectSerie(_ serie: Serie) {
         coordinator?.showSerieDetails(serie)
     }
-
+    
     /// Notifica o coordenador que um ator foi selecionado.
     func didSelectActor(_ actor: Actor) {
         coordinator?.showActorDetails(actor)

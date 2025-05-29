@@ -232,10 +232,10 @@
 			mainGroup = 79BB3F942DE7D30800804CB4;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				79BB3FD12DE7D40300804CB4 /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */,
-				79BB3FD42DE7D41E00804CB4 /* XCLocalSwiftPackageReference "../ModuloServiceSeries" */,
 				79BB40752DE818EF00804CB4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				79BB407D2DE8206700804CB4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				79E0443B2DE8F56E00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceSeries" */,
+				79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 79BB3F9E2DE7D30800804CB4 /* Products */;
@@ -599,17 +599,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		79BB3FD12DE7D40300804CB4 /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ModuloServiceMovie;
-		};
-		79BB3FD42DE7D41E00804CB4 /* XCLocalSwiftPackageReference "../ModuloServiceSeries" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ModuloServiceSeries;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		79BB40752DE818EF00804CB4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -625,6 +614,22 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.0.0;
+			};
+		};
+		79E0443B2DE8F56E00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceSeries" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceSeries.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceMovie.git";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -24,12 +24,12 @@ class DetailsViewModel {
     }
 
     private func setupDetails(for type: DetailType) {
-        //Haas
+        
         switch type {
         case .movie(let movie):
             title.value = movie.title
             description.value = movie.overview
-            imageUrl.value = URL(string: movie.posterPath)
+            imageUrl.value = URL(string: Configuration.imageBaseURL + movie.posterPath)
         case .serie(let serie):
             title.value = serie.name
             description.value = serie.overview

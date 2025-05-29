@@ -26,7 +26,7 @@ class LoginView: UIView {
     }()
 
     let loginButton: UIButton = {
-        let button = UIButton(type: .system)
+        let button = UIButton()
         button.setTitle("Entrar", for: .normal)
         return button
     }()
@@ -47,7 +47,7 @@ class LoginView: UIView {
     }
 
     private func setupView() {
-        backgroundColor = .white
+        backgroundColor = .lightGray
         addSubview(emailTextField)
         addSubview(passwordTextField)
         addSubview(loginButton)
@@ -62,7 +62,7 @@ class LoginView: UIView {
         NSLayoutConstraint.activate([
             emailTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             emailTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
-            emailTextField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 50),
+            emailTextField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 250),
 
             passwordTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             passwordTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),

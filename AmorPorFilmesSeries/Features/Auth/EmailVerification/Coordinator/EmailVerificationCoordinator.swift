@@ -6,7 +6,6 @@
 //
 
 
-// Features/Auth/EmailVerification/Coordinator/EmailVerificationCoordinator.swift
 import UIKit
 
 class EmailVerificationCoordinator: Coordinator, EmailVerificationViewControllerDelegate {
