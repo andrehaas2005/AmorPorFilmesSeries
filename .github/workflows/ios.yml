@@ -1,0 +1,40 @@
+name: Build and Test iOS
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_15.2.app # Ajuste para a versão desejada
+
+    - name: Xcode version
+      run: xcodebuild -version
+
+    - name: Install SwiftLint (opcional)
+      run: |
+        brew update
+        brew install swiftlint
+
+    - name: SwiftLint (opcional)
+      run: swiftlint
+
+    - name: Set up CocoaPods (se necessário)
+      run: |
+        if test -e Podfile; then
+          gem install cocoapods --no-document
+          pod install
+        fi
+
+    - name: Build
+      run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14'
+
+    - name: Run tests
+      run: xcodebuild test -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeriesTests -destination 'platform=iOS Simulator,name=iPhone 14'
