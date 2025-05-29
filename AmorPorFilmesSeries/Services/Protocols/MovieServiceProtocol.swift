@@ -10,7 +10,7 @@
 import Foundation
 
 // Define o protocolo para o serviço de filmes.
-protocol MovieServiceProtocol {
+public protocol MovieServiceProtocol {
     /// Busca filmes que estão atualmente em cartaz.
     func fetchNowPlayingMovies(completion: @escaping (Result<[Movie], Error>) -> Void)
 

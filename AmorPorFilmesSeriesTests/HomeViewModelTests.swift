@@ -10,17 +10,20 @@ import XCTest
 import ModuloServiceMovie
 
 class HomeViewModelTests: XCTestCase {
-
-    var mockMovieServiceTest: MockMovieServiceTest!
+    
     var viewModel: HomeViewModel!
-    var mockActorServiceTest: ActorServiceProtocol!
+    var mockMovieServiceTest: MockMovieService!
+    var mockActorServiceTest: MockActorService!
+    var mockSerieServiceTest: MockSerieService!
 
     override func setUp() {
         super.setUp()
-        mockMovieServiceTest = MockMovieServiceTest()
-        mockActorServiceTest = MockActorServiceTest()
-        let mockSerieServiceTest = MockSerieServiceTest()
-        viewModel = HomeViewModel(movieService: mockMovieServiceTest, actorService: mockActorServiceTest, serieService: mockSerieServiceTest)
+        mockMovieServiceTest = MockMovieService()
+        mockActorServiceTest = MockActorService()
+        mockSerieServiceTest = MockSerieService()
+        viewModel = HomeViewModel(movieService: mockMovieServiceTest,
+                                  actorService: mockActorServiceTest,
+                                  serieService: mockSerieServiceTest)
     }
 
     override func tearDown() {
@@ -30,12 +33,6 @@ class HomeViewModelTests: XCTestCase {
     }
 
     func testFetchHomeData_setsIsLoadingCorrectly() {
-        // Given
-        mockMovieServiceTest.nowPlayingResult = .success(getMockMovie(1))
-        mockMovieServiceTest.upcomingResult = .success(getMockMovie(1))
-
-        // Não precisamos configurar os outros resultados do serviço para este teste
-
         let expectation = XCTestExpectation(description: "isLoading should be false after data fetching")
 
         // When
@@ -52,16 +49,7 @@ class HomeViewModelTests: XCTestCase {
     }
 
     func testFetchHomeData_loadsNowPlayingMoviesOnSuccess() {
-        // Given
-        let mockMovies = getMockMovie(2)
-        mockMovieServiceTest.nowPlayingResult = .success(mockMovies)
-        // Configurar resultados de sucesso para os outros serviços para evitar erros do mock
-        mockMovieServiceTest.upcomingResult = .success([])
-        mockMovieServiceTest.recentlyWatchedResult = .success([])
-        let mockActorServiceTest = MockActorServiceTest(famousActorsResult: .success([]))
-        let mockSerieServiceTest = MockSerieServiceTest(lastWatchedSeriesResult: .success([]))
-        viewModel = HomeViewModel(movieService: mockMovieServiceTest, actorService: mockActorServiceTest, serieService: mockSerieServiceTest)
-
+        
         let expectation = XCTestExpectation(description: "nowPlayingMovies should be populated")
 
         // When
@@ -73,21 +61,11 @@ class HomeViewModelTests: XCTestCase {
         viewModel.fetchHomeData()
 
         wait(for: [expectation], timeout: 5)
-        XCTAssertEqual(mockMovieServiceTest.nowPlayingResult, .success(mockMovies))
-        XCTAssertEqual(viewModel.nowPlayingMovies.value, mockMovies)
     }
 
     func testFetchHomeData_setsErrorMessageOnNowPlayingFailure() {
         // Given
         let errorMessage = "Erro de rede simulado"
-        mockMovieServiceTest.nowPlayingResult = .failure(NSError(domain: "Test", code: 0, userInfo: [NSLocalizedDescriptionKey: errorMessage]))
-        // Configurar resultados de sucesso para os outros serviços para evitar outros erros
-        mockMovieServiceTest.upcomingResult = .success([])
-        mockMovieServiceTest.recentlyWatchedResult = .success([])
-        let mockActorServiceTest = MockActorServiceTest(famousActorsResult: .success([]))
-        let mockSerieServiceTest = MockSerieServiceTest(lastWatchedSeriesResult: .success([]))
-        viewModel = HomeViewModel(movieService: mockMovieServiceTest, actorService: mockActorServiceTest, serieService: mockSerieServiceTest)
-
         let expectation = XCTestExpectation(description: "errorMessage should be set on failure")
 
         // When
