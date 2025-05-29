@@ -1,0 +1,85 @@
+disabled_rules: # Regras que você quer desabilitar completamente
+  - trailing_whitespace # Geralmente útil, mas pode gerar muito ruído em projetos existentes
+  - vertical_whitespace # Similar ao trailing_whitespace
+  - line_length # Podemos querer ser flexíveis com o comprimento da linha inicialmente
+  - type_body_length # Pode ser restritivo demais no início
+  - file_length # Similar ao type_body_length
+
+opt_in_rules: # Regras para habilitar (a maioria não é por padrão)
+  - anyobject_protocol
+  - array_init
+  - closure_spacing
+  - collection_alignment
+  - comma
+  - compiler_protocol_init
+  - conditional_returns_on_newline
+  - control_statement
+  - discarded_notification_center_observer
+  - discouraged_optional_collection
+  - empty_count
+  - fatal_error_message
+  - first_where
+  - flatmap_reduce
+  - force_unwrapping # Alerta sobre o uso de !
+  - for_where
+  - identical_operands
+  - implicit_getter
+  - joined_default_parameter
+  - large_tuple
+  - leading_zero
+  - literal_expression_equal_to_comparison
+  - lower_camel_case
+  - modifier_order
+  - multiline_parameters
+  - no_space_in_method_call
+  - opening_brace
+  - operator_whitespace
+  - orphaned_doc_comment
+  - redundant_nil_coalescing
+  - sorted_imports
+  - switch_case_alignment
+  - trailing_comma
+  - unneeded_break_in_switch
+  - unneeded_override
+  - unused_closure_parameter
+  - unused_control_flow_label
+  - vertical_parameter_alignment_on_call
+
+included: # Caminhos para aplicar o lint
+  - .
+
+excluded: # Caminhos para ignorar
+  - Pods
+  - Carthage
+  - $(SRCROOT)/Generated # Se você tiver código gerado
+
+# Configurações de regras específicas (ajustes)
+line_length:
+  warning: 120
+  error: 150
+
+type_name:
+  min_length: 3
+  max_length: 40
+  excluded: iPhone # Exemplo
+
+identifier_name:
+  min_length: 1
+  max_length: 40
+  excluded: i, id, URL # Exemplo de exclusões comuns
+  allowed_symbols: _
+
+force_unwrapping:
+  severity: warning # Apenas um aviso, não um erro por padrão
+
+control_statement:
+  severity: warning # Encoraja o uso de chaves
+
+trailing_comma:
+  mandatory: true # Força vírgulas à direita em coleções multi-linha
+
+closure_spacing:
+  severity: warning
+
+opening_brace:
+  severity: warning
