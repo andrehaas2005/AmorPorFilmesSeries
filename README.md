@@ -6,7 +6,7 @@ Este documento detalha a concepção e a arquitetura de um aplicativo mobile iOS
 
 ## **2\. Visão Geral do Projeto**
 
-O aplicativo "MovieApp" é uma plataforma mobile para entusiastas de filmes e séries, oferecendo as seguintes funcionalidades principais:
+O aplicativo "AmorPorFilmesSeries" é uma plataforma mobile para entusiastas de filmes e séries, oferecendo as seguintes funcionalidades principais:
 
 * **Autenticação Completa:**  
   * **Tela de Login:** Permite que usuários existentes acessem suas contas com email e senha.  
@@ -66,7 +66,7 @@ A arquitetura MVVM-C é a base para a organização e o desenvolvimento deste pr
 
 A organização de pastas e arquivos foi pensada para escalabilidade e futura modularização em Swift Packages (SPM), onde cada *feature* pode se tornar um módulo independente.
 
-MovieApp/  
+AmorPorFilmesSeries/  
 ├── App/  
 │   ├── AppDelegate.swift  
 │   ├── SceneDelegate.swift  
