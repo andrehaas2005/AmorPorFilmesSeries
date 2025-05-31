@@ -68,9 +68,33 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         view.backgroundColor = .white
         title = "Home"
         registerCollection()
+        setupLogoutButton()
         setupUI()
         setupBindings()
         viewModel.fetchHomeData()
+    }
+    
+    func setupLogoutButton() {
+        // Tente usar um símbolo do sistema primeiro (iOS 13+)
+        if #available(iOS 13.0, *) {
+            let logoutImage = UIImage(systemName: "rectangle.portrait.and.arrow.right")
+            let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain, target: self, action: #selector(logoutTapped))
+            navigationItem.rightBarButtonItem = logoutBarButtonItem
+        } else {
+            // Se estiver rodando em versões anteriores do iOS, você precisará usar uma imagem do seu Assets.xcassets
+            if let logoutImage = UIImage(named: "logout_icon") { // Substitua "logout_icon" pelo nome da sua imagem
+                let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain, target: self, action: #selector(logoutTapped))
+                navigationItem.rightBarButtonItem = logoutBarButtonItem
+            } else {
+                // Fallback se a imagem não for encontrada
+                let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logoutTapped))
+                navigationItem.rightBarButtonItem = logoutBarButtonItem
+            }
+        }
+    }
+
+    @objc func logoutTapped() {
+        delegate?.didRequestLogout()
     }
 
     private func setupBindings() {

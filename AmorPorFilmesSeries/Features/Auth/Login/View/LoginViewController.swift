@@ -39,10 +39,6 @@ class LoginViewController: UIViewController {
         loginView.loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         loginView.signUpButton.addTarget(self, action: #selector(signUpButtonTapped), for: .touchUpInside)
     }
-    
-    private func setupUI() {
-        view.backgroundColor = .cyan
-    }
 
     private func setupBindings() {
         viewModel.errorMessage.bind { [weak self] message in

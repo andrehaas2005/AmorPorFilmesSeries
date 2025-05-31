@@ -26,8 +26,12 @@ class LoginView: UIView {
     }()
 
     let loginButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Entrar", for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+        button.backgroundColor = .systemBlue
+        button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 8
         return button
     }()
 
@@ -47,7 +51,7 @@ class LoginView: UIView {
     }
 
     private func setupView() {
-        backgroundColor = .lightGray
+        setImageBackgroud(.login)
         addSubview(emailTextField)
         addSubview(passwordTextField)
         addSubview(loginButton)
