@@ -15,6 +15,7 @@ class GenreSelectionCell: UICollectionViewCell {
     private let genreLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
+        label.textColor = .white
         label.font = UIFont.systemFont(ofSize: 14)
         return label
     }()
@@ -50,8 +51,8 @@ class GenreSelectionCell: UICollectionViewCell {
             genreLabel.textColor = .white
             contentView.layer.borderColor = UIColor.systemBlue.cgColor
         } else {
-            contentView.backgroundColor = .clear
-            genreLabel.textColor = .darkText
+            contentView.backgroundColor = .systemTeal
+            genreLabel.textColor = .white
             contentView.layer.borderColor = UIColor.lightGray.cgColor
         }
     }

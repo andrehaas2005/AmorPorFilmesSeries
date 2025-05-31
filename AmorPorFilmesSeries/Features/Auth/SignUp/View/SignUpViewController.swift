@@ -111,7 +111,7 @@ extension SignUpViewController: UICollectionViewDelegate, UICollectionViewDataSo
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let genre = viewModel.genres.value??[indexPath.item] {
             viewModel.toggleGenreSelection(genre)
-            collectionView.reloadItems(at: [indexPath]) // Recarrega apenas a célula selecionada
+            collectionView.reloadItems(at: [indexPath])
         }
     }
 
