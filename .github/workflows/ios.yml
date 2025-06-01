@@ -11,6 +11,14 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
+    
+    - name: Check project file
+      run: |
+        ls -l AmorPorFilmesSeries/AmorPorFilmesSeries.xcodeproj
+        if [ ! -s AmorPorFilmesSeries/AmorPorFilmesSeries.xcodeproj ]; then
+          echo "Error: Project file is empty or does not exist."
+          exit 1
+        fi
 
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_15.2.app # Ajuste para a versão desejada
