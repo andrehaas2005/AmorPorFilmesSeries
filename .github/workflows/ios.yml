@@ -14,9 +14,6 @@ jobs:
 
     - name: List repository contents
       run: ls -R
-
-    - name: Change working directory
-      run: cd AmorPorFilmesSeries
     
     - name: Check project file
       run: |
