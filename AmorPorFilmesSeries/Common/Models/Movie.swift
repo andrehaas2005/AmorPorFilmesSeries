@@ -6,7 +6,7 @@
 //
 
 
-public struct Movie: Codable, Hashable {
+public struct Movie: Codable, Hashable, Sendable {
     let adult: Bool
     let backdropPath: String
     let genreIDS: [Int]

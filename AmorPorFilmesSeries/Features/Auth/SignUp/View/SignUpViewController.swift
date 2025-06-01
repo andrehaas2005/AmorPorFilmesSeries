@@ -48,14 +48,16 @@ class SignUpViewController: UIViewController {
 
     private func setupBindings() {
         viewModel.errorMessage.bind { [weak self] message in
-            guard let self = self, let message = message else { return }
+            guard let self = self,
+                  let message = message else { return }
             let alert = UIAlertController(title: "Erro", message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
             self.present(alert, animated: true)
         }
 
         viewModel.isLoading.bind { [weak self] isLoading in
-            guard let self = self, let isLoading = isLoading else { return }
+            guard let self = self,
+                  let isLoading = isLoading else { return }
             self.signUpView.signUpButton.setTitle(isLoading ? "Cadastrando..." : "Cadastrar", for: .normal)
             self.signUpView.signUpButton.isEnabled = !isLoading
         }
@@ -65,7 +67,8 @@ class SignUpViewController: UIViewController {
         }
 
         viewModel.signUpSuccess.bind { [weak self] success in
-            guard let self = self, success != nil else { return } //Haas
+            guard let self = self,
+                  success != nil else { return }
             if let email = self.signUpView.emailTextField.text {
                 self.delegate?.didSignUpSuccessfully(email: email)
             }
@@ -93,13 +96,16 @@ class SignUpViewController: UIViewController {
 }
 
 // MARK: - UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
-extension SignUpViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension SignUpViewController: UICollectionViewDelegate, UICollectionViewDataSource,
+                                UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel.genres.value??.count ?? 0
     }
 
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GenreSelectionCell.reuseIdentifier, for: indexPath) as? GenreSelectionCell else {
+    func collectionView(_ collectionView: UICollectionView,
+                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GenreSelectionCell.reuseIdentifier,
+                                                            for: indexPath) as? GenreSelectionCell else {
             return UICollectionViewCell()
         }
         if let genre = viewModel.genres.value??[indexPath.item] {
@@ -115,7 +121,8 @@ extension SignUpViewController: UICollectionViewDelegate, UICollectionViewDataSo
         }
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
         // Calcular o tamanho da célula com base no texto do gênero
         guard let genreName = viewModel.genres.value??[indexPath.item].name else { return .zero }
         let font = UIFont.systemFont(ofSize: 14)

@@ -1,7 +1,7 @@
+
 disabled_rules: # Regras que você quer desabilitar completamente
   - trailing_whitespace # Geralmente útil, mas pode gerar muito ruído em projetos existentes
   - vertical_whitespace # Similar ao trailing_whitespace
-  - line_length # Podemos querer ser flexíveis com o comprimento da linha inicialmente
   - type_body_length # Pode ser restritivo demais no início
   - file_length # Similar ao type_body_length
 

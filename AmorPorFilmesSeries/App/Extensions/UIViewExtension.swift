@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum backgroundImage: String {
+enum BackgroundImage: String {
     case sign = "fundo-sign"
     case login = "fundo-login"
     
@@ -15,7 +15,7 @@ enum backgroundImage: String {
 
 
 extension UIView {
-    func setImageBackgroud(_ imageName: backgroundImage) {
+    func setImageBackgroud(_ imageName: BackgroundImage) {
         let imageBackgroud: UIImageView = {
             let imageView = UIImageView()
             imageView.image = UIImage(named: imageName.rawValue)

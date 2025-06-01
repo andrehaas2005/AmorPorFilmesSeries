@@ -5,9 +5,9 @@
 //  Created by Andre Haas on 28/05/25.
 //
 
+import Kingfisher
 import UIKit
 import SnapKit
-import Kingfisher
 
 protocol HomeViewControllerDelegate: AnyObject {
     func didSelectMovie(_ movie: Movie)
@@ -78,16 +78,19 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         // Tente usar um símbolo do sistema primeiro (iOS 13+)
         if #available(iOS 13.0, *) {
             let logoutImage = UIImage(systemName: "rectangle.portrait.and.arrow.right")
-            let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain, target: self, action: #selector(logoutTapped))
+            let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain,
+                                                      target: self, action: #selector(logoutTapped))
             navigationItem.rightBarButtonItem = logoutBarButtonItem
         } else {
             // Se estiver rodando em versões anteriores do iOS, você precisará usar uma imagem do seu Assets.xcassets
             if let logoutImage = UIImage(named: "logout_icon") { // Substitua "logout_icon" pelo nome da sua imagem
-                let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain, target: self, action: #selector(logoutTapped))
+                let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain,
+                                                          target: self, action: #selector(logoutTapped))
                 navigationItem.rightBarButtonItem = logoutBarButtonItem
             } else {
                 // Fallback se a imagem não for encontrada
-                let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logoutTapped))
+                let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain,
+                                                          target: self, action: #selector(logoutTapped))
                 navigationItem.rightBarButtonItem = logoutBarButtonItem
             }
         }
@@ -100,7 +103,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     private func setupBindings() {
 
         viewModel.isLoading.bind { [weak self] isLoading in
-            guard let self = self, let isLoading = isLoading else { return }
+            guard let self = self,
+                  let isLoading = isLoading else { return }
             if isLoading {
                 self.activityIndicator.startAnimating()
             } else {
@@ -109,17 +113,19 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         }
 
         viewModel.errorMessage.bind { [weak self] message in
-            guard let self = self, let message = message else { return }
+            guard let self = self,
+                  let message = message else { return }
             let alert = UIAlertController(title: "Erro", message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
             self.present(alert, animated: true)
         }
 
-        viewModel.nowPlayingMovies.bind { [weak self] movies in
+        viewModel.nowPlayingMovies.bind {
+            [weak self] _ in
             self?.nowPlayingCollectionView.reloadData()
         }
 
-        viewModel.upcomingMovies.bind { [weak self] movies in
+        viewModel.upcomingMovies.bind { [weak self] _ in
             self?.upcomingCollectionView.reloadData()
         }
     }
@@ -127,11 +133,13 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     private func registerCollection() {
         nowPlayingCollectionView.delegate = self
         nowPlayingCollectionView.dataSource = self
-        nowPlayingCollectionView.register(MovieCarouselCell.self, forCellWithReuseIdentifier: MovieCarouselCell.identifier)
+        nowPlayingCollectionView.register(MovieCarouselCell.self,
+                                          forCellWithReuseIdentifier: MovieCarouselCell.identifier)
 
         upcomingCollectionView.delegate = self
         upcomingCollectionView.dataSource = self
-        upcomingCollectionView.register(MovieCarouselCell.self, forCellWithReuseIdentifier: MovieCarouselCell.identifier)
+        upcomingCollectionView.register(MovieCarouselCell.self,
+                                        forCellWithReuseIdentifier: MovieCarouselCell.identifier)
     }
 
     private func setupUI() {
@@ -192,9 +200,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         return 0
     }
 
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView,
+                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == nowPlayingCollectionView {
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier, for: indexPath) as? MovieCarouselCell else {
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier,
+                                                                for: indexPath) as? MovieCarouselCell else {
                 fatalError("Could not dequeue MovieCarouselCell")
             }
             if let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
@@ -202,7 +212,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             }
             return cell
         } else if collectionView == upcomingCollectionView {
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier, for: indexPath) as? MovieCarouselCell else {
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier,
+                                                                for: indexPath) as? MovieCarouselCell else {
                 fatalError("Could not dequeue MovieCarouselCell")
             }
             if let movie = viewModel.upcomingMovies.value??[indexPath.item] {
@@ -214,8 +225,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     }
 
     // MARK: - UICollectionViewDelegateFlowLayout
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == upcomingCollectionView || collectionView == nowPlayingCollectionView {
             return CGSize(width: 150, height: 200)
         }
@@ -223,9 +234,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if collectionView == nowPlayingCollectionView, let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
+        if collectionView == nowPlayingCollectionView,
+           let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
             delegate?.didSelectMovie(movie)
-        } else if collectionView == upcomingCollectionView, let movie = viewModel.upcomingMovies.value??[indexPath.item] {
+        } else if collectionView == upcomingCollectionView,
+                  let movie = viewModel.upcomingMovies.value??[indexPath.item] {
             delegate?.didSelectMovie(movie)
         }
     }
