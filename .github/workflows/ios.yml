@@ -34,7 +34,7 @@ jobs:
         fi
 
     - name: Build
-      run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14'
+      run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
 
     - name: Run tests
-      run: xcodebuild test -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeriesTests -destination 'platform=iOS Simulator,name=iPhone 14'
+      run: xcodebuild test -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeriesTests -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
