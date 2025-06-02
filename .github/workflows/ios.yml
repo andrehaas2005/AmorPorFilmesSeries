@@ -17,8 +17,8 @@ jobs:
     
     - name: Check project file
       run: |
-        ls -l AmorPorFilmesSeries/AmorPorFilmesSeries.xcodeproj
-        if [ ! -s AmorPorFilmesSeries/AmorPorFilmesSeries.xcodeproj ]; then
+        ls -l AmorPorFilmesSeries.xcodeproj
+        if [ ! -s AmorPorFilmesSeries.xcodeproj ]; then
           echo "Error: Project file is empty or does not exist."
           exit 1
         fi
@@ -29,12 +29,12 @@ jobs:
     - name: Xcode version
       run: xcodebuild -version
 
-    - name: Install SwiftLint (opcional)
+    - name: Install SwiftLint
       run: |
         brew update
         brew install swiftlint
 
-    - name: SwiftLint (opcional)
+    - name: SwiftLint
       run: swiftlint
 
     - name: Set up CocoaPods (se necessário)
