@@ -24,7 +24,7 @@ jobs:
         fi
 
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_15.2.app # Ajuste para a versão desejada
+      run: sudo xcode-select -switch /Applications/Xcode_16.4.app
 
     - name: Xcode version
       run: xcodebuild -version
@@ -48,7 +48,7 @@ jobs:
       run: ls -R /Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries/
 
     - name: Build
-      run: xcodebuild clean build -project ~/Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries//AmorPorFilmesSeries.xcodeproj  -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
+      run: xcodebuild clean build -project ~/Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries/AmorPorFilmesSeries.xcodeproj  -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
 
     - name: Run tests
       run: xcodebuild test -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeriesTests -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
