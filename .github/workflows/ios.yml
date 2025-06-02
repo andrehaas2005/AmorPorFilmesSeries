@@ -46,17 +46,9 @@ jobs:
 
     - name: List repository contents
       run: ls -R /Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries/
-
-    - name: List xcode line
-      run: sudo softwareupdate --list
-
-    
-    - name: Install xcode line
-      run: sudo xcode-select --install
-
       
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_16.4.app # Tente 15.4 ou a mais recente
+      run: sudo xcode-select -switch /Applications/Xcode_15.5.app # Tente 15.4 ou a mais recente
 
     - name: Build
       run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
