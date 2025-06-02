@@ -30,10 +30,7 @@ jobs:
       run: xcodebuild -version
 
     - name: Xcode Reset
-      run: xcodebuild -reset
-
-    - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_16.4.app
+      run: xcodebuild --reset
 
     - name: Install SwiftLint
       run: |
