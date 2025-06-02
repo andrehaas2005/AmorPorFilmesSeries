@@ -29,9 +29,6 @@ jobs:
     - name: Xcode version
       run: xcodebuild -version
 
-    - name: Xcode Reset
-      run: xcodebuild --reset
-
     - name: Install SwiftLint
       run: |
         brew update
