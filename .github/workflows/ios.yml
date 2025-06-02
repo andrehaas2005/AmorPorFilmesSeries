@@ -48,7 +48,7 @@ jobs:
       run: ls -R /Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries/
 
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_15.4.app # Tente 15.4 ou a mais recente
+      run: sudo xcode-select -switch /Applications/Xcode_16.app # Tente 15.4 ou a mais recente
 
     - name: Build
       run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
