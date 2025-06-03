@@ -1,0 +1,40 @@
+{
+  "" : {
+    "const-values" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master.swiftconstvalues",
+    "dependencies" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master.d",
+    "diagnostics" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master.dia",
+    "emit-module-dependencies" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master-emit-module.dia",
+    "swift-dependencies" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie-master.swiftdeps"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/APIRequest.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/APIRequest.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/APIRequest.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/APIRequest.o"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/HTTPMethod.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/HTTPMethod.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/HTTPMethod.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/HTTPMethod.o"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/Model/Cover.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/Cover.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/Cover.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/Cover.o"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/ModuloServiceMovie.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/ModuloServiceMovie.o"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/NetworkError.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkError.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkError.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkError.o"
+  },
+  "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/Sources/ModuloServiceMovie/NetworkServiceProtocol.swift" : {
+    "index-unit-output-path" : "/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkServiceProtocol.o",
+    "llvm-bc" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkServiceProtocol.bc",
+    "object" : "/Users/andrehaas/Library/Developer/Xcode/DerivedData/AmorPorFilmesSeries-csotnpphpqshkffhjuizkkssamwq/SourcePackages/checkouts/ModuloServiceMovie/build/ModuloServiceMovie.build/Release-iphoneos/ModuloServiceMovie.build/Objects-normal/arm64/NetworkServiceProtocol.o"
+  }
+}

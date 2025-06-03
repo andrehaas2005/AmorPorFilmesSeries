@@ -52,7 +52,7 @@ struct KnownFor: Codable {
     let voteAverage: Double
     let voteCount: Int
     let name, originalName, firstAirDate: String?
-    let originCountry: [OriginCountry]?
+    let originCountry: [OriginCountry] = []
 
     enum CodingKeys: String, CodingKey {
         case backdropPath = "backdrop_path"
@@ -77,17 +77,19 @@ struct KnownFor: Codable {
 }
 
 enum MediaType: String, Codable {
-    case movie = "movie"
-    case tv = "tv"
+    case movie
+    case tv
 }
 
 enum OriginCountry: String, Codable {
     case gb = "GB"
     case us = "US"
+    case br = "BR"
 }
 
 enum OriginalLanguage: String, Codable {
-    case en = "en"
+    case en
+    case pt
 }
 
 enum KnownForDepartment: String, Codable {

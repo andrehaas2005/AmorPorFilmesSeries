@@ -1,0 +1,4 @@
+module ModuloServiceSeries {
+header "ModuloServiceSeries-Swift.h"
+export *
+}

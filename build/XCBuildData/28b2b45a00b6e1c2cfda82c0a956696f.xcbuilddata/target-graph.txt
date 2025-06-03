@@ -1,0 +1,24 @@
+Target dependency graph (11 targets)
+Target 'AmorPorFilmesSeries' in project 'AmorPorFilmesSeries'
+➜ Explicit dependency on target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'ModuloServiceMovie' in project 'ModuloServiceMovie'
+➜ Explicit dependency on target 'ModuloServiceSeries' in project 'ModuloServiceSeries'
+Target 'ModuloServiceSeries' in project 'ModuloServiceSeries'
+➜ Explicit dependency on target 'ModuloServiceSeries' in project 'ModuloServiceSeries'
+Target 'ModuloServiceSeries' in project 'ModuloServiceSeries' (no dependencies)
+Target 'ModuloServiceMovie' in project 'ModuloServiceMovie'
+➜ Explicit dependency on target 'ModuloServiceMovie' in project 'ModuloServiceMovie'
+Target 'ModuloServiceMovie' in project 'ModuloServiceMovie' (no dependencies)
+Target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit_SnapKit' in project 'SnapKit'
+Target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit_SnapKit' in project 'SnapKit'
+Target 'SnapKit_SnapKit' in project 'SnapKit' (no dependencies)
+Target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher_Kingfisher' in project 'Kingfisher'
+Target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher_Kingfisher' in project 'Kingfisher'
+Target 'Kingfisher_Kingfisher' in project 'Kingfisher' (no dependencies)

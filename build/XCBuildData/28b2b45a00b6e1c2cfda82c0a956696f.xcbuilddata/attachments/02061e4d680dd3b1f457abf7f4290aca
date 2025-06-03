@@ -1,0 +1,280 @@
+{
+  "" : {
+    "const-values" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master.swiftconstvalues",
+    "dependencies" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master.d",
+    "diagnostics" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master.dia",
+    "emit-module-dependencies" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master-emit-module.dia",
+    "swift-dependencies" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AmorPorFilmesSeries-master.swiftdeps"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/AppDelegate.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Configuration.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Configuration.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Configuration.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Configuration.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Coordinator/AppCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AppCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Coordinator/Storyboarded.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Storyboarded.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Storyboarded.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Storyboarded.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Extensions/UIColorExtension.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIColorExtension.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIColorExtension.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIColorExtension.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Extensions/UINavigationControllerExtension.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UINavigationControllerExtension.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UINavigationControllerExtension.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UINavigationControllerExtension.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Extensions/UIViewExtension.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIViewExtension.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIViewExtension.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UIViewExtension.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/NavigationController.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/NavigationController.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/NavigationController.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/NavigationController.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/Observable.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Observable.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Observable.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Observable.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/App/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Components/Color.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Color.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Color.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Color.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/Actor.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Actor.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Actor.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Actor.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/Cover.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Cover.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Cover.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Cover.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/Genre.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Genre.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Genre.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Genre.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/GenresResponse.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenresResponse.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenresResponse.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenresResponse.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/Movie.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Movie.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Movie.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Movie.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/Serie.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Serie.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Serie.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Serie.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Models/User.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/User.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/User.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/User.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Views/GenreSelectionCell.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreSelectionCell.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreSelectionCell.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreSelectionCell.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Common/Views/MovieCarouselCell.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieCarouselCell.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieCarouselCell.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieCarouselCell.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/AuthCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AuthCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AuthCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/AuthCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/EmailVerification/Coordinator/EmailVerificationCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/EmailVerification/View/EmailVerificationView.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationView.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationView.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationView.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/EmailVerification/View/EmailVerificationViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewControllerDelegate.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewControllerDelegate.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewControllerDelegate.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/EmailVerification/ViewModel/EmailVerificationViewModel.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewModel.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewModel.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/EmailVerificationViewModel.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/Coordinator/LoginCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/Coordinator/LoginCoordinatorDelegate.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinatorDelegate.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinatorDelegate.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginCoordinatorDelegate.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/View/LoginView.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginView.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/View/LoginViewController.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewController.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewController.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewController.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/ViewModel/LoginViewModel.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModel.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModel.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModel.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/Login/ViewModel/LoginViewModelDelegate.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModelDelegate.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModelDelegate.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/LoginViewModelDelegate.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/SignUp/Coordinator/SignUpCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/SignUp/View/SignUpView.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpView.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpView.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpView.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/SignUp/View/SignUpViewController.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewController.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewController.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewController.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Auth/SignUp/ViewModel/SignUpViewModel.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewModel.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewModel.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SignUpViewModel.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Details/Coordinator/DetailsCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Details/View/DetailsViewController.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewController.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewController.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewController.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Details/ViewModel/DetailsViewModel.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewModel.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewModel.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/DetailsViewModel.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Home/Coordinator/HomeCoordinator.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeCoordinator.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeCoordinator.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeCoordinator.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Home/View/HomeViewController.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewController.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewController.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewController.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Features/Home/ViewModel/HomeViewModel.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewModel.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewModel.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/HomeViewModel.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/GenreService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Mocks/MockActorService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockActorService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockActorService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockActorService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Mocks/MockAuthService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockAuthService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockAuthService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockAuthService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Mocks/MockMovieService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockMovieService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockMovieService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockMovieService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Mocks/MockSerieService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockSerieService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockSerieService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MockSerieService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/MovieList/MovieListService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieListService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieListService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieListService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Protocols/ActorServiceProtocol.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/ActorServiceProtocol.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/ActorServiceProtocol.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/ActorServiceProtocol.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Protocols/GenreServiceProtocol.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreServiceProtocol.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreServiceProtocol.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GenreServiceProtocol.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Protocols/MovieServiceProtocol.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieServiceProtocol.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieServiceProtocol.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/MovieServiceProtocol.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Protocols/SerieServiceProtocol.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SerieServiceProtocol.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SerieServiceProtocol.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/SerieServiceProtocol.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Protocols/UserService.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UserService.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UserService.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/UserService.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/AmorPorFilmesSeries/Services/Utilits.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Utilits.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Utilits.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/Utilits.o"
+  },
+  "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/andrehaas/Documents/Meus-Projetos/Estudos/Projetos Filmes Series/AmorPorFilmesSeries/build/AmorPorFilmesSeries.build/Release-iphoneos/AmorPorFilmesSeries.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}
