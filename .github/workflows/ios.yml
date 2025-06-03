@@ -43,9 +43,9 @@ jobs:
           gem install cocoapods --no-document
           pod install
         fi
-
-    - name: List repository contents
-      run: ls -R /Users/runner/work/AmorPorFilmesSeries/AmorPorFilmesSeries/
+        
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_15.2.app
       
     - name: Build
       run: xcodebuild clean build -project AmorPorFilmesSeries.xcodeproj -scheme AmorPorFilmesSeries -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
