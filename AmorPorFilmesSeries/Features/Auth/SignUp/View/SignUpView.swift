@@ -53,6 +53,7 @@ class SignUpView: UIView {
         let label = UILabel()
         label.text = "Gêneros Preferidos:"
         label.font = UIFont.systemFont(ofSize: 16, weight: .medium)
+        label.textColor = .white
         return label
     }()
 
@@ -94,7 +95,7 @@ class SignUpView: UIView {
     }
 
     private func setupView() {
-        backgroundColor = .white
+        setImageBackgroud(.sign)
         let stackView = UIStackView(arrangedSubviews: [
             emailTextField,
             passwordTextField,
@@ -111,15 +112,16 @@ class SignUpView: UIView {
         stackView.alignment = .fill
         stackView.distribution = .fill
 
+        
         addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
-
+        
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20),
             stackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             stackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
-            stackView.bottomAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.bottomAnchor, constant: -20), // Para evitar que a stack view se estique demais
-
+            stackView.bottomAnchor.constraint(lessThanOrEqualTo: safeAreaLayoutGuide.bottomAnchor,
+                                              constant: -20),
             emailTextField.heightAnchor.constraint(equalToConstant: 44),
             passwordTextField.heightAnchor.constraint(equalToConstant: 44),
             confirmPasswordTextField.heightAnchor.constraint(equalToConstant: 44),

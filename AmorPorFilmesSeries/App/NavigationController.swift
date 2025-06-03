@@ -26,7 +26,7 @@ public final class NavigationController: UINavigationController {
         self.init(nibName: nil, bundle: nil)
     }
 
-    private func setup(){
+    private func setup() {
         navigationBar.barTintColor = Color.primaryDark
         navigationBar.tintColor = .white
         navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
@@ -34,7 +34,7 @@ public final class NavigationController: UINavigationController {
         navigationBar.barStyle = .black
     }
 
-    public func setRootViewController(_ viewController: UIViewController){
+    public func setRootViewController(_ viewController: UIViewController) {
         setViewControllers([viewController], animated: true)
         currectViewController = viewController
         hideBackButtonText()
@@ -47,6 +47,9 @@ public final class NavigationController: UINavigationController {
     }
 
     public func hideBackButtonText() {
-        currectViewController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: nil, style: .plain, target: nil, action: nil)
+        currectViewController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: nil,
+                                                                                  style: .plain,
+                                                                                  target: nil,
+                                                                                  action: nil)
     }
 }

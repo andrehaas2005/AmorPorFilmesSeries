@@ -4,9 +4,8 @@
 //
 //  Created by Andre  Haas on 28/05/25.
 //
-
-import Foundation
 import Combine
+import Foundation
 
 // Classe auxiliar para observáveis (se não estiver usando Combine ou similar)
 class Observable<T> {

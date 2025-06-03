@@ -12,18 +12,21 @@ import Foundation
 class MockMovieService: MovieServiceProtocol {
     func fetchNowPlayingMovies(completion: @escaping (Result<[Movie], Error>) -> Void) {
         getMockData { [weak self] result in
+            guard (self != nil) else {return}
             completion(.success(result))
         }
     }
     
     func fetchUpcomingMovies(completion: @escaping (Result<[Movie], Error>) -> Void) {
         getMockData { [weak self] result in
+            guard (self != nil) else {return}
             completion(.success(result))
         }
     }
     
     func fetchRecentlyWatchedMovies(completion: @escaping (Result<[Movie], Error>) -> Void) {
         getMockData { [weak self] result in
+            guard (self != nil) else {return}
             completion(.success(result))
         }
     }

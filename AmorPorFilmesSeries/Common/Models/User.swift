@@ -13,10 +13,14 @@ struct User: Codable {
     let email: String
     var name: String?
     var nickname: String?
-    var preferredGenres: [Genre]? // Gêneros preferidos do usuário
+    var preferredGenres: [Genre] = []
 
     // Para simulação, podemos gerar um ID simples
-    init(id: String = UUID().uuidString, email: String, name: String? = nil, nickname: String? = nil, preferredGenres: [Genre]? = nil) {
+    init(id: String = UUID().uuidString,
+         email: String,
+         name: String? = nil,
+         nickname: String? = nil,
+         preferredGenres: [Genre] = []) {
         self.id = id
         self.email = email
         self.name = name

@@ -1,12 +1,11 @@
+
 disabled_rules: # Regras que você quer desabilitar completamente
   - trailing_whitespace # Geralmente útil, mas pode gerar muito ruído em projetos existentes
   - vertical_whitespace # Similar ao trailing_whitespace
-  - line_length # Podemos querer ser flexíveis com o comprimento da linha inicialmente
   - type_body_length # Pode ser restritivo demais no início
   - file_length # Similar ao type_body_length
 
 opt_in_rules: # Regras para habilitar (a maioria não é por padrão)
-  - anyobject_protocol
   - array_init
   - closure_spacing
   - collection_alignment
@@ -19,16 +18,13 @@ opt_in_rules: # Regras para habilitar (a maioria não é por padrão)
   - empty_count
   - fatal_error_message
   - first_where
-  - flatmap_reduce
   - force_unwrapping # Alerta sobre o uso de !
   - for_where
   - identical_operands
   - implicit_getter
   - joined_default_parameter
   - large_tuple
-  - leading_zero
-  - literal_expression_equal_to_comparison
-  - lower_camel_case
+  - raw_value_for_camel_cased_codable_enum
   - modifier_order
   - multiline_parameters
   - no_space_in_method_call
@@ -75,8 +71,8 @@ force_unwrapping:
 control_statement:
   severity: warning # Encoraja o uso de chaves
 
-trailing_comma:
-  mandatory: true # Força vírgulas à direita em coleções multi-linha
+#trailing_comma:
+#  mandatory: false # Força vírgulas à direita em coleções multi-linha
 
 closure_spacing:
   severity: warning

@@ -1,0 +1,4 @@
+module ModuloServiceMovie {
+header "ModuloServiceMovie-Swift.h"
+export *
+}
