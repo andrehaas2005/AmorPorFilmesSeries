@@ -34,13 +34,15 @@ class HomeCoordinator: Coordinator {
         let serieService = MockSerieService() // Use seu SerieService real aqui
 
         // Cria e injeta os serviços no HomeViewModel.
-        let viewModel = HomeViewModel(movieService: movieService, actorService: actorService, serieService: serieService)
-        viewModel.coordinator = self // Define o próprio coordenador como o coordenador do ViewModel
+        let viewModel = HomeViewModel(movieService: movieService,
+                                      actorService: actorService,
+                                      serieService: serieService)
+        viewModel.coordinator = self
 
         // Cria o HomeViewController e define seu delegate.
         let viewController = HomeViewController(viewModel: viewModel)
-        viewController.delegate = self // O coordenador é o delegate do ViewController
-
+        viewController.delegate = self
+        
         // Define o HomeViewController como a raiz da navigation stack ou o empilha.
         // Se for a primeira tela após o login, geralmente se define como root.
         navigationController.setViewControllers([viewController], animated: true)

@@ -14,18 +14,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession,
                options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = scene as? UIWindowScene else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+              let window = UIWindow(windowScene: windowScene)
+              self.window = window // Atribui à propriedade 'window' do SceneDelegate.
+              let navigationController = NavigationController()
+              appCoordinator = AppCoordinator(navigationController: navigationController)
+              appCoordinator?.start()
+              window.rootViewController = navigationController
+              window.makeKeyAndVisible()
 
-        let window = UIWindow(windowScene: windowScene)
-
-        // Aqui você instancia o seu Coordinator raiz (AppCoordinator)
-        let navigationController = NavigationController()
-        appCoordinator = AppCoordinator(navigationController: navigationController)
-        appCoordinator?.start()
-
-        window.rootViewController = navigationController
-        self.window = window
-        window.makeKeyAndVisible()
+              print("SceneDelegate: scene willConnectTo")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
