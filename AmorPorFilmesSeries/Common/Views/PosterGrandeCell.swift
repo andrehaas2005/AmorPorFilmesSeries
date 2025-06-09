@@ -12,7 +12,7 @@ import SnapKit // Importar SnapKit
 
 class PosterGrandeCell: UICollectionViewCell {
 
-    static let identifier = "PosterImageCell" // Identifier correto
+    static let identifier = "PosterImageCell"
 
     let viewBox: UIView = {
         let view = UIView()
@@ -78,7 +78,7 @@ class PosterGrandeCell: UICollectionViewCell {
         // Constraints para o labelName (acima do botão, centralizado)
         labelName.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.leading.trailing.equalToSuperview().inset(16) // Margens laterais
+            make.leading.trailing.equalToSuperview()//.inset(16) // Margens laterais
             make.bottom.equalTo(btnDetai.snp.top).offset(-16) // Espaçamento entre label e botão
         }
 

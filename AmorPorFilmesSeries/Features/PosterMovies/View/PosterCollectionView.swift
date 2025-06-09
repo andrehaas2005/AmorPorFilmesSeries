@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import ModuloServiceMovie
 
-class PosterCollection: UIView {
+class PosterCollectionView: UIView {
     
     let service: MovieServiceProtocol?
     var viewModel: PosterViewModel?
@@ -17,11 +17,11 @@ class PosterCollection: UIView {
     let posterCollection: UICollectionView = {
         let collectionViewLayout = UICollectionViewFlowLayout()
         collectionViewLayout.scrollDirection = .horizontal
-        // A altura e largura da célula serão definidas no delegateFlowLayout
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: collectionViewLayout)
-        collectionView.backgroundColor = .green // Cor para depuração
+        let collectionView = UICollectionView(frame: .zero,
+                                              collectionViewLayout: collectionViewLayout)
+        collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.translatesAutoresizingMaskIntoConstraints = false // Importante para SnapKit ou AutoLayout
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView
     }()
     
@@ -37,7 +37,7 @@ class PosterCollection: UIView {
         setupCollectionView()
         setupBindings()
         // Adicionar o `fetchPosterData()` aqui para iniciar a busca de dados assim que a view for criada.
-        viewModel?.fetchPosterData()
+        viewModel?.fetchData()
     }
     
     private func insertService() {
@@ -57,7 +57,7 @@ class PosterCollection: UIView {
     }
     
     private func setupBindings() {
-        viewModel?.upcomingPosterMovies.bind { [weak self] _ in
+        viewModel?.items.bind { [weak self] _ in
             DispatchQueue.main.async { // Garante que o reloadData ocorra na thread principal
                 self?.posterCollection.reloadData()
             }
@@ -65,22 +65,21 @@ class PosterCollection: UIView {
     }
 }
 
-extension PosterCollection: UICollectionViewDataSource {
+extension PosterCollectionView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        let count = viewModel?.upcomingPosterMovies.value?.count ?? 0
+        let count = viewModel?.items.value?.count ?? 0
         return count
     }
     
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        // print("PosterCollection: cellForItemAt called for indexPath: \(indexPath)") // Para depuração
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PosterGrandeCell.identifier,
                                                             for: indexPath) as? PosterGrandeCell else {
             return UICollectionViewCell()
         }
         
-        if let movie = viewModel?.upcomingPosterMovies.value?[indexPath.row] {
+        if let movie = viewModel?.items.value?[indexPath.row] {
             cell.cellBuilder(poster: movie.posterPath, name: movie.title)
         }
         return cell
@@ -88,7 +87,7 @@ extension PosterCollection: UICollectionViewDataSource {
 }
 
 // Implementar UICollectionViewDelegateFlowLayout para definir o tamanho da célula
-extension PosterCollection: UICollectionViewDelegateFlowLayout {
+extension PosterCollectionView: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -111,7 +110,7 @@ extension PosterCollection: UICollectionViewDelegateFlowLayout {
 }
 
 // Adicione aqui a extensão para o scroll view se desejar o efeito de snap para o poster
-extension PosterCollection: UICollectionViewDelegate {
+extension PosterCollectionView: UICollectionViewDelegate {
     // Para um efeito de "paging" ou "snap" para cada poster.
     func scrollViewWillEndDragging(_ scrollView: UIScrollView,
                                    withVelocity velocity: CGPoint,

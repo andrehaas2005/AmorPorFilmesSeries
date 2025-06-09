@@ -8,20 +8,24 @@
 import Foundation
 import ModuloServiceMovie
 
-public class PosterViewModel {
 
-    let upcomingPosterMovies = Observable<[Movie]>([])
-    let isLoading = Observable<Bool>(false)
-    let errorMessage = Observable<String?>(nil)
 
-    private let movieService: MovieServiceProtocol
+public class PosterViewModel: ViewModelProtocol {
+    
+    typealias DataType = Movie
+
+    var items: Observable<[Movie]> = Observable<[Movie]>([])
+    var isLoading = Observable<Bool>(false)
+    var errorMessage = Observable<String?>(nil)
+
+    internal var movieService: MovieServiceProtocol!
 
     init(movieService: MovieServiceProtocol) {
         self.movieService = movieService
     }
 
 
-    func fetchPosterData() {
+    func fetchData() {
         isLoading.value = true
         errorMessage.value = nil
 
@@ -35,7 +39,7 @@ public class PosterViewModel {
             case .success(let movies):
                 // print("PosterViewModel: Movies fetched successfully. Count: \(movies.count)") // Para depuração
                 DispatchQueue.main.async {
-                    self?.upcomingPosterMovies.value = movies
+                    self?.items.value = movies
                 }
             case .failure(let error):
                 // print("PosterViewModel: Error fetching movies: \(error.localizedDescription)") // Para depuração

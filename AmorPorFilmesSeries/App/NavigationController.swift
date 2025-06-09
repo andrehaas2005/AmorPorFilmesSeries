@@ -28,10 +28,10 @@ public final class NavigationController: UINavigationController {
 
     private func setup() {
         navigationBar.barTintColor = Color.primaryDark
-        navigationBar.tintColor = .red
-        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationBar.isTranslucent = false
-        navigationBar.barStyle = .default
+        navigationBar.tintColor = .black
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        navigationBar.isTranslucent = true
+        navigationBar.barStyle = .black
     }
 
     public func setRootViewController(_ viewController: UIViewController) {

@@ -10,6 +10,7 @@
 import UIKit
 
 class GenreSelectionCell: UICollectionViewCell {
+    
     static let reuseIdentifier = "GenreSelectionCell"
 
     private let genreLabel: UILabel = {
@@ -20,8 +21,8 @@ class GenreSelectionCell: UICollectionViewCell {
         return label
     }()
 
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    override convenience init(frame: CGRect) {
+        self.init(frame: .zero)
         setupCell()
     }
 
@@ -29,7 +30,7 @@ class GenreSelectionCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func setupCell() {
+    internal func setupCell() {
         contentView.addSubview(genreLabel)
         genreLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([

@@ -49,8 +49,8 @@ class AppCoordinator: Coordinator {
         childCoordinators.removeAll()
         
         let tabBarController = UITabBarController()
-        tabBarController.tabBar.tintColor = .systemPurple // Personalize a cor das abas
-        tabBarController.tabBar.barTintColor = .white // Cor de fundo da tab bar
+        tabBarController.tabBar.tintColor = .systemGreen // Personalize a cor das abas
+        tabBarController.tabBar.barTintColor = Color.primaryDark // Cor de fundo da tab bar
         tabBarController.tabBar.isTranslucent = false // Evita transparência indesejada
         
         // MARK: - Configuração das Abas

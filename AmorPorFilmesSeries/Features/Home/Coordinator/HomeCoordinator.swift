@@ -27,19 +27,10 @@ class HomeCoordinator: Coordinator {
 
     /// Inicia o fluxo da Home.
     func start() {
-        // Instancia os serviços reais (ou mocks para testes).
-//        let movieService = MovieListService() // Use seu MovieService real aqui
-        let movieService = MockMovieService()
-        let actorService = MockActorService() // Use seu ActorService real aqui
-        let serieService = MockSerieService() // Use seu SerieService real aqui
-
-        // Cria e injeta os serviços no HomeViewModel.
-        let viewModel = HomeViewModel(movieService: movieService,
-                                      actorService: actorService,
-                                      serieService: serieService)
+        let movieService = MockMovieService() //Alterar para serviço real
+        
+        let viewModel = HomeViewModel(movieService: movieService)
         viewModel.coordinator = self
-
-        // Cria o HomeViewController e define seu delegate.
         let viewController = HomeViewController(viewModel: viewModel)
         viewController.delegate = self
         
@@ -57,21 +48,21 @@ class HomeCoordinator: Coordinator {
         detailsCoordinator.start(with: .movie(movie)) // Passa o filme para a tela de detalhes
     }
 
-    /// Exibe os detalhes de uma série.
-    func showSerieDetails(_ serie: Serie) {
-        let detailsCoordinator = DetailsCoordinator(navigationController: navigationController)
-        detailsCoordinator.parentCoordinator = self
-        childCoordinators.append(detailsCoordinator)
-        detailsCoordinator.start(with: .serie(serie)) // Passa a série para a tela de detalhes
-    }
-
-    /// Exibe os detalhes de um ator.
-    func showActorDetails(_ actor: Actor) {
-        let detailsCoordinator = DetailsCoordinator(navigationController: navigationController)
-        detailsCoordinator.parentCoordinator = self
-        childCoordinators.append(detailsCoordinator)
-        detailsCoordinator.start(with: .actor(actor)) // Passa o ator para a tela de detalhes
-    }
+//    /// Exibe os detalhes de uma série.
+//    func showSerieDetails(_ serie: Serie) {
+//        let detailsCoordinator = DetailsCoordinator(navigationController: navigationController)
+//        detailsCoordinator.parentCoordinator = self
+//        childCoordinators.append(detailsCoordinator)
+//        detailsCoordinator.start(with: .serie(serie)) // Passa a série para a tela de detalhes
+//    }
+//
+//    /// Exibe os detalhes de um ator.
+//    func showActorDetails(_ actor: Actor) {
+//        let detailsCoordinator = DetailsCoordinator(navigationController: navigationController)
+//        detailsCoordinator.parentCoordinator = self
+//        childCoordinators.append(detailsCoordinator)
+//        detailsCoordinator.start(with: .actor(actor)) // Passa o ator para a tela de detalhes
+//    }
 
     /// Remove um coordenador filho quando seu fluxo é concluído.
     func childDidFinish(_ child: Coordinator?) {
@@ -96,13 +87,13 @@ extension HomeCoordinator: HomeViewControllerDelegate {
         showMovieDetails(movie)
     }
 
-    func didSelectSerie(_ serie: Serie) {
-        showSerieDetails(serie)
-    }
-
-    func didSelectActor(_ actor: Actor) {
-        showActorDetails(actor)
-    }
+//    func didSelectSerie(_ serie: Serie) {
+//        showSerieDetails(serie)
+//    }
+//
+//    func didSelectActor(_ actor: Actor) {
+//        showActorDetails(actor)
+//    }
 
     func didRequestLogout() {
         requestLogout()
