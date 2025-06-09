@@ -10,6 +10,9 @@
 import Foundation
 
 class MockMovieService: MovieServiceProtocol {
+    
+    public static var shared = MockMovieService()
+    
     func fetchNowPlayingMovies(completion: @escaping (Result<[Movie], Error>) -> Void) {
         getMockData { [weak self] result in
             guard (self != nil) else {return}

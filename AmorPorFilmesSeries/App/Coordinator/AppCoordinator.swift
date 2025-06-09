@@ -68,7 +68,9 @@ class AppCoordinator: Coordinator {
         let watchlistCoordinator = WatchlistCoordinator(navigationController: watchlistNavController)
         childCoordinators.append(watchlistCoordinator)
         watchlistCoordinator.start()
-        watchlistNavController.tabBarItem = UITabBarItem(title: "Minha Lista", image: UIImage(systemName: "bookmark.fill"), tag: 1)
+        watchlistNavController.tabBarItem = UITabBarItem(title: "Minha Lista",
+                                                         image: UIImage(systemName: "bookmark.fill"),
+                                                         tag: 1)
         watchlistNavController.navigationBar.prefersLargeTitles = true
         
         tabBarController.viewControllers = [

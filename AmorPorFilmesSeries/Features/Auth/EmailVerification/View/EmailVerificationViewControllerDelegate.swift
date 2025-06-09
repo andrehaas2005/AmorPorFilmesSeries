@@ -42,20 +42,23 @@ class EmailVerificationViewController: UIViewController {
 
     private func setupBindings() {
         viewModel.errorMessage.bind { [weak self] message in
-            guard let self = self, let message = message else { return }
+            guard let self = self,
+                  let message = message else { return }
             let alert = UIAlertController(title: "Erro", message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
             self.present(alert, animated: true)
         }
 
         viewModel.isLoading.bind { [weak self] isLoading in
-            guard let self = self, let isLoading = isLoading else { return }
+            guard let self = self,
+                  let isLoading = isLoading else { return }
             self.emailVerificationView.verifyButton.setTitle(isLoading ? "Verificando..." : "Verificar", for: .normal)
             self.emailVerificationView.verifyButton.isEnabled = !isLoading
         }
 
         viewModel.verificationSuccess.bind { [weak self] success in
-            guard let self = self, let _ = success else { return }
+            guard let self = self,
+                  success != nil else { return }
             self.delegate?.didVerifyEmailSuccessfully()
         }
     }
