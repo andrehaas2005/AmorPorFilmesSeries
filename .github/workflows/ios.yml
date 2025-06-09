@@ -45,7 +45,7 @@ jobs:
         fi
         
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_15.2.app
+      run: sudo xcode-select -switch /Applications/Xcode_16.4.app
    
    
 # Versão instalada no macbook (macOS) é mais atual do que na pipeline do Github Action,
