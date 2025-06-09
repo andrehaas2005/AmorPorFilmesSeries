@@ -47,14 +47,15 @@ jobs:
     - name: Select Xcode
       run: |
         ls -l /Applications/
-        sudo xcode-select -switch /Applications/Xcode_16.app
+        sudo xcode-select -switch /Applications/Xcode_16.2.app
    
+    - name: Build
+      run: xcodebuild clean build
    
 # Versão instalada no macbook (macOS) é mais atual do que na pipeline do Github Action,
 #  por isso pode haver erros
 #
-#    - name: Build
-#      run: xcodebuild clean build
-#
+  
+
 #    - name: Run tests
 #      run: xcodebuild test
