@@ -33,7 +33,7 @@ enum Configuration {
         static var nowPlayingMovies: String {
             return (config?["Endpoints"] as? NSDictionary)?["NowPlayingMovies"] as? String ?? ""
         }
-        // Adicione outras URLs aqui
+        
     }
 
     static var imageBaseURL: String {

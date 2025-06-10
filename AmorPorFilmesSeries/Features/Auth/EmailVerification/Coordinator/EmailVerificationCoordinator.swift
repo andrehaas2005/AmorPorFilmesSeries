@@ -21,7 +21,8 @@ class EmailVerificationCoordinator: Coordinator, EmailVerificationViewController
     }
 
     func start() {
-        let viewModel = EmailVerificationViewModel(email: email, userService: MockUserService()) // Usar o serviço real aqui
+        let viewModel = EmailVerificationViewModel(email: email,
+                                                   userService: MockUserService()) // Usar o serviço real aqui
         viewModel.coordinator = self
         let viewController = EmailVerificationViewController(viewModel: viewModel)
         viewController.delegate = self

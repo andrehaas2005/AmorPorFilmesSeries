@@ -10,6 +10,7 @@ import ModuloServiceMovie
 
 class MovieListService: MovieServiceProtocol {
     let service = NetworkService.shared
+    public static let shared = MovieListService()
     
     func fetchNowPlayingMovies(completion: @escaping (Result<[Movie], any Error>) -> Void) {
         DispatchQueue.global().async { [weak self] in

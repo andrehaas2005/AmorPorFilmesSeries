@@ -42,7 +42,8 @@ class LoginViewController: UIViewController {
 
     private func setupBindings() {
         viewModel.errorMessage.bind { [weak self] message in
-            guard let self = self, let message = message else { return }
+            guard let self = self,
+                  let message = message else { return }
             
             // Mostrar mensagem de erro na UI
             let alert = UIAlertController(title: "Erro", message: message, preferredStyle: .alert)
@@ -51,14 +52,16 @@ class LoginViewController: UIViewController {
         }
 
         viewModel.isLoading.bind { [weak self] isLoading in
-            guard let self = self, let isLoading = isLoading else { return }
+            guard let self = self,
+                  let isLoading = isLoading else { return }
             // Mostrar/esconder indicador de loading
             self.loginView.loginButton.setTitle(isLoading ? "Entrando..." : "Entrar", for: .normal)
             self.loginView.loginButton.isEnabled = !isLoading
         }
 
         viewModel.loginSuccess.bind { [weak self] success in
-            guard let self = self, let _ = success else { return }
+            guard let self = self,
+                  let _ = success else { return }
             self.delegate?.didLogIn()
         }
     }

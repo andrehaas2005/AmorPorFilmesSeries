@@ -11,8 +11,8 @@ import SnapKit
 
 protocol HomeViewControllerDelegate: AnyObject {
     func didSelectMovie(_ movie: Movie)
-    func didSelectSerie(_ serie: Serie)
-    func didSelectActor(_ actor: Actor)
+    //    func didSelectSerie(_ serie: Serie)
+    //    func didSelectActor(_ actor: Actor)
     func didRequestLogout()
 }
 
@@ -22,86 +22,100 @@ enum Section {
 }
 
 class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
-
+    
     weak var delegate: HomeViewControllerDelegate?
     private let viewModel: HomeViewModel
-
+    
+    
+    private let posterMovie: PosterCollectionView = {
+        let poster = PosterCollectionView(service: MockMovieService())
+        return poster
+    }()
+    
+    private let actorMovie: ActorsCollectionView = {
+        let actor = ActorsCollectionView(service: MockActorService())
+        return actor
+    }()
+    
+    private let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        return scrollView
+    }()
+    
+    private let mainStackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .vertical
+        stackView.spacing = 20
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        stackView.isLayoutMarginsRelativeArrangement = true
+        return stackView
+    }()
+    
     private let nowPlayingLabel = createSectionLabel("Filmes em Cartaz")
+    private let actorsLabel = createSectionLabel("Atores Populares")
+    
     private let nowPlayingCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
-        layout.estimatedItemSize = CGSize(width: 150, height: 200)
+        //        layout.estimatedItemSize = CGSize(width: 150, height: 200)
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.backgroundColor = .clear
         collectionView.showsHorizontalScrollIndicator = false
         return collectionView
     }()
-
-    private let upcomingLabel = createSectionLabel("Filmes em Breve")
-    private let upcomingCollectionView: UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        layout.estimatedItemSize = CGSize(width: 150, height: 200)
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .clear
-        collectionView.showsHorizontalScrollIndicator = false
-        return collectionView
-    }()
-
+    
     private let activityIndicator: UIActivityIndicatorView = {
         let indicator = UIActivityIndicatorView(style: .large)
         indicator.hidesWhenStopped = true
         return indicator
     }()
-
+    
     init(viewModel: HomeViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
-
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        title = "Home"
+        view.backgroundColor = Color.primaryLight
+        title = "Próximos Lançamentos"
         registerCollection()
         setupLogoutButton()
-        setupUI()
+        setupUI() // Chama setupUI que adiciona posterMovie
         setupBindings()
-        viewModel.fetchHomeData()
+        viewModel.fetchData() // Inicia a busca de dados para os outros carrosséis
+        // O PosterViewModel (dentro de PosterCollection) já chama seu próprio fetchPosterData()
     }
     
     func setupLogoutButton() {
-        // Tente usar um símbolo do sistema primeiro (iOS 13+)
         if #available(iOS 13.0, *) {
             let logoutImage = UIImage(systemName: "rectangle.portrait.and.arrow.right")
             let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain,
                                                       target: self, action: #selector(logoutTapped))
             navigationItem.rightBarButtonItem = logoutBarButtonItem
         } else {
-            // Se estiver rodando em versões anteriores do iOS, você precisará usar uma imagem do seu Assets.xcassets
-            if let logoutImage = UIImage(named: "logout_icon") { // Substitua "logout_icon" pelo nome da sua imagem
+            if let logoutImage = UIImage(named: "logout_icon") {
                 let logoutBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain,
                                                           target: self, action: #selector(logoutTapped))
                 navigationItem.rightBarButtonItem = logoutBarButtonItem
             } else {
-                // Fallback se a imagem não for encontrada
                 let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain,
                                                           target: self, action: #selector(logoutTapped))
                 navigationItem.rightBarButtonItem = logoutBarButtonItem
             }
         }
     }
-
+    
     @objc func logoutTapped() {
         delegate?.didRequestLogout()
     }
-
+    
     private func setupBindings() {
-
         viewModel.isLoading.bind { [weak self] isLoading in
             guard let self = self,
                   let isLoading = isLoading else { return }
@@ -111,7 +125,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
                 self.activityIndicator.stopAnimating()
             }
         }
-
+        
         viewModel.errorMessage.bind { [weak self] message in
             guard let self = self,
                   let message = message else { return }
@@ -119,67 +133,71 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
             alert.addAction(UIAlertAction(title: "Ok", style: .default))
             self.present(alert, animated: true)
         }
-
-        viewModel.nowPlayingMovies.bind {
-            [weak self] _ in
+        
+        viewModel.items.bind { [weak self] _ in
             self?.nowPlayingCollectionView.reloadData()
         }
-
-        viewModel.upcomingMovies.bind { [weak self] _ in
-            self?.upcomingCollectionView.reloadData()
-        }
     }
-
+    
     private func registerCollection() {
         nowPlayingCollectionView.delegate = self
         nowPlayingCollectionView.dataSource = self
         nowPlayingCollectionView.register(MovieCarouselCell.self,
                                           forCellWithReuseIdentifier: MovieCarouselCell.identifier)
-
-        upcomingCollectionView.delegate = self
-        upcomingCollectionView.dataSource = self
-        upcomingCollectionView.register(MovieCarouselCell.self,
-                                        forCellWithReuseIdentifier: MovieCarouselCell.identifier)
     }
-
+    
     private func setupUI() {
-        view.addSubview(nowPlayingLabel)
-        view.addSubview(nowPlayingCollectionView)
-        view.addSubview(upcomingLabel)
-        view.addSubview(upcomingCollectionView)
-        view.addSubview(activityIndicator)
-
-        nowPlayingLabel.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
-            make.leading.trailing.equalToSuperview().inset(16)
-            make.height.equalTo(18)
+        view.addSubview(scrollView)
+        scrollView.addSubview(mainStackView)
+        
+    
+        mainStackView.addArrangedSubview(posterMovie)
+        mainStackView.addArrangedSubview(nowPlayingLabel)
+        mainStackView.addArrangedSubview(nowPlayingCollectionView)
+        mainStackView.addArrangedSubview(actorsLabel)
+        mainStackView.addArrangedSubview(actorMovie)
+        
+        // Constraints para o UIScrollView
+        NSLayoutConstraint.activate([
+            scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+        ])
+        
+        // Constraints para o UIStackView dentro do UIScrollView
+        NSLayoutConstraint.activate([
+            mainStackView.topAnchor.constraint(equalTo: scrollView.contentLayoutGuide.topAnchor),
+            mainStackView.leadingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.leadingAnchor),
+            mainStackView.trailingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.trailingAnchor),
+            mainStackView.bottomAnchor.constraint(equalTo: scrollView.contentLayoutGuide.bottomAnchor),
+            mainStackView.widthAnchor.constraint(equalTo: scrollView.frameLayoutGuide.widthAnchor)
+        ])
+        
+        posterMovie.snp.makeConstraints { make in
+            make.height.equalTo(350) // Altura do banner principal
+            make.leading.trailing.equalToSuperview()
         }
-
+        
+        actorMovie.snp.makeConstraints { make in
+            make.height.equalTo(150) // Altura do banner principal
+            make.leading.trailing.equalToSuperview()
+        }
+        
         nowPlayingCollectionView.snp.makeConstraints { make in
-            make.top.equalTo(nowPlayingLabel.snp.bottom).offset(8)
+            make.height.equalTo(220)
             make.leading.trailing.equalToSuperview()
-            make.height.equalTo(220).priority(.high)
         }
-
-        upcomingLabel.snp.makeConstraints { make in
-            make.top.equalTo(nowPlayingCollectionView.snp.bottom).offset(20)
-            make.leading.trailing.equalToSuperview().inset(16)
-            make.height.equalTo(18)
-        }
-
-        upcomingCollectionView.snp.makeConstraints { make in
-            make.top.equalTo(upcomingLabel.snp.bottom).offset(8)
-            make.leading.trailing.equalToSuperview()
-            make.height.equalTo(220).priority(.high)
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(20)
-        }
-
-        activityIndicator.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.centerY.equalToSuperview()
-        }
+        
+        // Adiciona e configura o activityIndicator
+        view.addSubview(activityIndicator)
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
-
+    
     private static func createSectionLabel(_ title: String) -> UILabel {
         let label = UILabel()
         label.text = title
@@ -188,57 +206,36 @@ class HomeViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         label.textAlignment = .center
         return label
     }
-
-    // MARK: - UICollectionViewDataSource
-
+    
+    // MARK: - UICollectionViewDataSource (para nowPlayingCollectionView)
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if collectionView == nowPlayingCollectionView {
-            return viewModel.nowPlayingMovies.value??.count ?? 0
-        } else if collectionView == upcomingCollectionView {
-            return viewModel.upcomingMovies.value??.count ?? 0
-        }
-        return 0
+        return viewModel.items.value?.count ?? 0
     }
-
+    
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if collectionView == nowPlayingCollectionView {
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier,
-                                                                for: indexPath) as? MovieCarouselCell else {
-                fatalError("Could not dequeue MovieCarouselCell")
-            }
-            if let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
-                cell.configure(with: movie)
-            }
-            return cell
-        } else if collectionView == upcomingCollectionView {
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier,
-                                                                for: indexPath) as? MovieCarouselCell else {
-                fatalError("Could not dequeue MovieCarouselCell")
-            }
-            if let movie = viewModel.upcomingMovies.value??[indexPath.item] {
-                cell.configure(with: movie)
-            }
-            return cell
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCarouselCell.identifier,
+                                                            for: indexPath) as? MovieCarouselCell else {
+            return UICollectionViewCell()
         }
-        return UICollectionViewCell()
+        if let movie = viewModel.items.value?[indexPath.item] {
+            cell.configure(with: movie)
+        }
+        return cell
     }
-
-    // MARK: - UICollectionViewDelegateFlowLayout
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout,
+    
+    // MARK: - UICollectionViewDelegateFlowLayout (para nowPlayingCollectionView)
+    func collectionView(_ collectionView: UICollectionView,
+                        layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if collectionView == upcomingCollectionView || collectionView == nowPlayingCollectionView {
-            return CGSize(width: 150, height: 200)
+        if collectionView == nowPlayingCollectionView {
+            return CGSize(width: 150, height: 220)
         }
-        return (collectionViewLayout as? UICollectionViewFlowLayout)?.estimatedItemSize ?? CGSize.zero
+        return .zero // Retorno padrão para outras coleções
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if collectionView == nowPlayingCollectionView,
-           let movie = viewModel.nowPlayingMovies.value??[indexPath.item] {
-            delegate?.didSelectMovie(movie)
-        } else if collectionView == upcomingCollectionView,
-                  let movie = viewModel.upcomingMovies.value??[indexPath.item] {
+        if let movie = viewModel.items.value?[indexPath.item] {
             delegate?.didSelectMovie(movie)
         }
     }
