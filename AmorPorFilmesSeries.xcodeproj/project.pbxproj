@@ -277,7 +277,6 @@
 /* Begin PBXShellScriptBuildPhase section */
 		79852EF32DECF6D7000E365C /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -643,16 +642,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceSeries.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 		79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceMovie.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
