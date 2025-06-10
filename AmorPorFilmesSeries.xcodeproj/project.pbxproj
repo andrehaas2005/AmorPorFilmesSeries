@@ -643,16 +643,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceSeries.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 		79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceMovie.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
