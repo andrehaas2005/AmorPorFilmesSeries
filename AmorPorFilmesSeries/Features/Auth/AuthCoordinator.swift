@@ -14,9 +14,9 @@ protocol AuthCoordinatorDelegate: AnyObject {
     func didCompleteAuthFlow() // Novo método para quando o fluxo de autenticação é concluído
 }
 
-class AuthCoordinator: Coordinator {
+class AuthCoordinator: CoordinatorProtocol {
     weak var delegate: AuthCoordinatorDelegate?
-    var childCoordinators: [Coordinator] = []
+    var childCoordinators: [CoordinatorProtocol] = []
     var navigationController: NavigationController
 
     init(navigationController: NavigationController) {

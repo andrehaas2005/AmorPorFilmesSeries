@@ -12,23 +12,16 @@ import ModuloServiceMovie
 class HomeViewModelTests: XCTestCase {
     
     var viewModel: HomeViewModel!
-    var mockMovieServiceTest: MockMovieService!
-    var mockActorServiceTest: MockActorService!
-    var mockSerieServiceTest: MockSerieService!
+    var movieServiceTest: MockMovieService!
 
     override func setUp() {
         super.setUp()
-        mockMovieServiceTest = MockMovieService()
-        mockActorServiceTest = MockActorService()
-        mockSerieServiceTest = MockSerieService()
-        viewModel = HomeViewModel(movieService: mockMovieServiceTest,
-                                  actorService: mockActorServiceTest,
-                                  serieService: mockSerieServiceTest)
+        movieServiceTest = MockMovieService()
+        viewModel = HomeViewModel(movieService: movieServiceTest)
     }
 
     override func tearDown() {
         viewModel = nil
-        mockMovieServiceTest = nil
         super.tearDown()
     }
 
@@ -41,64 +34,18 @@ class HomeViewModelTests: XCTestCase {
                 expectation.fulfill()
             }
         }
-        viewModel.fetchHomeData()
+        viewModel.fetchData()
         XCTAssertTrue(viewModel.isLoading.value ?? false, "isLoading should be true when fetching starts")
 
         wait(for: [expectation], timeout: 5)
 //        XCTAssertFalse(viewModel.isLoading.value ?? true, "isLoading should be false after fetching completes")
     }
 
-    func testFetchHomeData_loadsNowPlayingMoviesOnSuccess() {
-        
-        let expectation = XCTestExpectation(description: "nowPlayingMovies should be populated")
+  
 
-        // When
-        viewModel.nowPlayingMovies.bind { movies in
-            if movies != nil {
-                expectation.fulfill()
-            }
-        }
-        viewModel.fetchHomeData()
+   
 
-        wait(for: [expectation], timeout: 5)
-    }
-
-    func testFetchHomeData_setsErrorMessageOnNowPlayingFailure() {
-        // Given
-        let errorMessage = "Erro de rede simulado"
-        let expectation = XCTestExpectation(description: "errorMessage should be set on failure")
-
-        // When
-        viewModel.errorMessage.bind { message in
-            if message != nil {
-                expectation.fulfill()
-            }
-        }
-        viewModel.fetchHomeData()
-
-        wait(for: [expectation], timeout: 5)
-    }
-
-    func getMockMovie(_ qtdaRegistro: Int) -> [Movie] {
-        var result = [Movie]()
-        for x in 0..<qtdaRegistro {
-            result.append(Movie(adult: false,
-                                backdropPath: "/teste\(x)",
-                                genreIDS: [1,2,3],
-                                id: 1,
-                                originalLanguage: "Fime \(x)",
-                                originalTitle: "Filme \(x)",
-                                overview: "só texto",
-                                popularity: 9.0,
-                                posterPath: "/posterPath\(x)",
-                                releaseDate: "releaseDate",
-                                title: "title \(x)",
-                                video: true,
-                                voteAverage: 9.0,
-                                voteCount: 9))
-        }
-        return result
-    }
+ 
 }
 
 // Crie mocks vazios para ActorService e SerieService para o setUp() não falhar

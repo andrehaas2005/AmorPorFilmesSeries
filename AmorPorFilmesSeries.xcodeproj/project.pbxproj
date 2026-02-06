@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		79124AE52DE8218400279174 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79124AE42DE8218400279174 /* SnapKit */; };
+		798ABDCC2E0608DF00EE896A /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 798ABDCB2E0608DF00EE896A /* ModuloServiceMovie */; };
+		798ABDCF2E07729100EE896A /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 798ABDCE2E07729100EE896A /* ModuloServiceMovie */; };
+		798ABDD12E0774FC00EE896A /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 798ABDD02E0774FC00EE896A /* ModuloServiceMovie */; };
 		79BB3FD32DE7D40300804CB4 /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 79BB3FD22DE7D40300804CB4 /* ModuloServiceMovie */; };
 		79BB3FD62DE7D41E00804CB4 /* ModuloServiceSeries in Frameworks */ = {isa = PBXBuildFile; productRef = 79BB3FD52DE7D41E00804CB4 /* ModuloServiceSeries */; };
 		79BB40772DE818EF00804CB4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 79BB40762DE818EF00804CB4 /* Kingfisher */; };
+		79E452D72E09C327001CD12E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 79E452D62E09C327001CD12E /* Alamofire */; };
+		79E452E02E09DE4C001CD12E /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 79E452DF2E09DE4C001CD12E /* ModuloServiceMovie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,19 @@
 			remoteInfo = AmorPorFilmesSeries;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79E452E22E09E287001CD12E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		79BB3F9D2DE7D30800804CB4 /* AmorPorFilmesSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmorPorFilmesSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +90,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798ABDD12E0774FC00EE896A /* ModuloServiceMovie in Frameworks */,
+				79E452E02E09DE4C001CD12E /* ModuloServiceMovie in Frameworks */,
+				79E452D72E09C327001CD12E /* Alamofire in Frameworks */,
 				79BB40772DE818EF00804CB4 /* Kingfisher in Frameworks */,
+				798ABDCC2E0608DF00EE896A /* ModuloServiceMovie in Frameworks */,
 				79124AE52DE8218400279174 /* SnapKit in Frameworks */,
 				79BB3FD32DE7D40300804CB4 /* ModuloServiceMovie in Frameworks */,
 				79BB3FD62DE7D41E00804CB4 /* ModuloServiceSeries in Frameworks */,
+				798ABDCF2E07729100EE896A /* ModuloServiceMovie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +158,7 @@
 				79BB3F9A2DE7D30800804CB4 /* Frameworks */,
 				79BB3F9B2DE7D30800804CB4 /* Resources */,
 				79852EF32DECF6D7000E365C /* Swiftlint */,
+				79E452E22E09E287001CD12E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +173,11 @@
 				79BB3FD52DE7D41E00804CB4 /* ModuloServiceSeries */,
 				79BB40762DE818EF00804CB4 /* Kingfisher */,
 				79124AE42DE8218400279174 /* SnapKit */,
+				798ABDCB2E0608DF00EE896A /* ModuloServiceMovie */,
+				798ABDCE2E07729100EE896A /* ModuloServiceMovie */,
+				798ABDD02E0774FC00EE896A /* ModuloServiceMovie */,
+				79E452D62E09C327001CD12E /* Alamofire */,
+				79E452DF2E09DE4C001CD12E /* ModuloServiceMovie */,
 			);
 			productName = AmorPorFilmesSeries;
 			productReference = 79BB3F9D2DE7D30800804CB4 /* AmorPorFilmesSeries.app */;
@@ -236,7 +265,8 @@
 				79BB40752DE818EF00804CB4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				79BB407D2DE8206700804CB4 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				79E0443B2DE8F56E00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceSeries" */,
-				79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */,
+				79E452D52E09C327001CD12E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				79E452DE2E09DE4C001CD12E /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 79BB3F9E2DE7D30800804CB4 /* Products */;
@@ -621,6 +651,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		79E452DE2E09DE4C001CD12E /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ModuloServiceMovie;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		79BB40752DE818EF00804CB4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -646,12 +683,12 @@
 				kind = branch;
 			};
 		};
-		79E0443C2DE8F61F00E1D2F9 /* XCRemoteSwiftPackageReference "ModuloServiceMovie" */ = {
+		79E452D52E09C327001CD12E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/andrehaas2005/ModuloServiceMovie.git";
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -661,6 +698,18 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 79BB407D2DE8206700804CB4 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		798ABDCB2E0608DF00EE896A /* ModuloServiceMovie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceMovie;
+		};
+		798ABDCE2E07729100EE896A /* ModuloServiceMovie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceMovie;
+		};
+		798ABDD02E0774FC00EE896A /* ModuloServiceMovie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceMovie;
 		};
 		79BB3FD22DE7D40300804CB4 /* ModuloServiceMovie */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -674,6 +723,15 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 79BB40752DE818EF00804CB4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		79E452D62E09C327001CD12E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79E452D52E09C327001CD12E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		79E452DF2E09DE4C001CD12E /* ModuloServiceMovie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceMovie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

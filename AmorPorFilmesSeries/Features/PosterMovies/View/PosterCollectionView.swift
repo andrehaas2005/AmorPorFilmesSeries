@@ -9,10 +9,11 @@ import UIKit
 import SnapKit
 import ModuloServiceMovie
 
-class PosterCollectionView: UIView {
+class PosterCollectionView: UIView, LancamentoViewControllerDelegate {
     
     let service: MovieServiceProtocol?
-    var viewModel: PosterViewModel?
+    var viewModel: (any MovieViewModelProtocol)?
+    weak var delegate: HomeViewControllerDelegate?
     
     let posterCollection: UICollectionView = {
         let collectionViewLayout = UICollectionViewFlowLayout()
@@ -30,18 +31,17 @@ class PosterCollectionView: UIView {
     }
     
     // Usaremos apenas um inicializador principal, injetando o serviço
-    init(service: MovieServiceProtocol = MovieListService()) {
+    init(service: MovieServiceProtocol = NetworkAFMovieService()) {
         self.service = service
         super.init(frame: .zero) // Inicializa com frame zero, as constraints definirão o tamanho real
         insertService()
         setupCollectionView()
         setupBindings()
-        // Adicionar o `fetchPosterData()` aqui para iniciar a busca de dados assim que a view for criada.
-        viewModel?.fetchData()
+//        viewModel?.fetchData()
     }
     
     private func insertService() {
-        self.viewModel = PosterViewModel(movieService: self.service ?? MovieListService())
+        self.viewModel = PosterViewModel(movieService: self.service ?? MovieService())
         posterCollection.dataSource = self
         posterCollection.delegate = self // O delegate deve ser a própria PosterCollection
     }
@@ -62,6 +62,10 @@ class PosterCollectionView: UIView {
                 self?.posterCollection.reloadData()
             }
         }
+    }
+    
+    func updateMovie(_ movies: [Movie]) {
+        viewModel?.items.value = movies
     }
 }
 

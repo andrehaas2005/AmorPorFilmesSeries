@@ -8,11 +8,11 @@
 
 import UIKit
 
-class WatchlistCoordinator: Coordinator {
+class WatchlistCoordinator: CoordinatorProtocol {
     var navigationController: NavigationController
     
 
-    var childCoordinators = [Coordinator]()
+    var childCoordinators = [CoordinatorProtocol]()
 
     init(navigationController: NavigationController) {
         self.navigationController = navigationController

@@ -22,8 +22,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
               appCoordinator?.start()
               window.rootViewController = navigationController
               window.makeKeyAndVisible()
-
-              print("SceneDelegate: scene willConnectTo")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

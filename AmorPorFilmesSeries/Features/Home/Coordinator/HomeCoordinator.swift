@@ -15,10 +15,10 @@ protocol HomeCoordinatorDelegate: AnyObject {
     // Outros eventos que o AppCoordinator precise saber sobre o fluxo da Home.
 }
 
-class HomeCoordinator: Coordinator {
+class HomeCoordinator: CoordinatorProtocol {
     weak var parentCoordinator: AppCoordinator? // Referência fraca ao coordenador pai (AppCoordinator)
     weak var delegate: HomeCoordinatorDelegate? // Delegate para notificar o AppCoordinator
-    var childCoordinators: [Coordinator] = [] // Coordenadores filhos (e.g., DetailsCoordinator)
+    var childCoordinators: [CoordinatorProtocol] = [] // Coordenadores filhos (e.g., DetailsCoordinator)
     var navigationController: NavigationController
 
     init(navigationController: NavigationController) {
@@ -27,8 +27,8 @@ class HomeCoordinator: Coordinator {
 
     /// Inicia o fluxo da Home.
     func start() {
-        let movieService = MockMovieService() //Alterar para serviço real
-        
+//        let movieService = MockMovieService()
+        let movieService = MovieService.shared
         let viewModel = HomeViewModel(movieService: movieService)
         viewModel.coordinator = self
         let viewController = HomeViewController(viewModel: viewModel)
@@ -65,7 +65,7 @@ class HomeCoordinator: Coordinator {
 //    }
 
     /// Remove um coordenador filho quando seu fluxo é concluído.
-    func childDidFinish(_ child: Coordinator?) {
+    func childDidFinish(_ child: CoordinatorProtocol?) {
         for (index, coordinator) in childCoordinators.enumerated() {
             if coordinator === child {
                 childCoordinators.remove(at: index)

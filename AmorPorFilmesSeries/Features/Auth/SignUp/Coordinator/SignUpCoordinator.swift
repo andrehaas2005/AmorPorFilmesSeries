@@ -1,10 +1,10 @@
 
 import Foundation
 
-class SignUpCoordinator: Coordinator {
+class SignUpCoordinator: CoordinatorProtocol {
     
     weak var parentCoordinator: AuthCoordinator?
-    var childCoordinators: [Coordinator] = []
+    var childCoordinators: [CoordinatorProtocol] = []
     var navigationController: NavigationController
 
     init(navigationController: NavigationController) {

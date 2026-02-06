@@ -27,11 +27,13 @@ public final class NavigationController: UINavigationController {
     }
 
     private func setup() {
-        navigationBar.barTintColor = Color.primaryDark
-        navigationBar.tintColor = .black
+        navigationBar.barTintColor = .white
+        navigationBar.tintColor = .white
         navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
         navigationBar.isTranslucent = true
-        navigationBar.barStyle = .black
+        navigationBar.prefersLargeTitles = false
+        navigationBar.isHidden = true
+        
     }
 
     public func setRootViewController(_ viewController: UIViewController) {

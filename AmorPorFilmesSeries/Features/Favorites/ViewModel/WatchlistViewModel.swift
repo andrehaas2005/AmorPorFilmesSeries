@@ -24,7 +24,7 @@ public class WatchlistViewModel {
     // Propriedades observáveis para os dados da UI
     let nowPlayingMovies = Observable<[Movie]?>(nil)
     let upcomingMovies = Observable<[Movie]?>(nil)
-    let famousActors = Observable<[Actor]?>(nil)
+    let famousActors = Observable<[ActorMovie]?>(nil)
     let recentlyWatchedMovies = Observable<[Movie]?>(nil)
     let lastWatchedSeriesEpisodes = Observable<[Serie]?>(nil)
     
@@ -55,7 +55,7 @@ public class WatchlistViewModel {
     }
     
     /// Notifica o coordenador que um ator foi selecionado.
-    func didSelectActor(_ actor: Actor) {
+    func didSelectActor(_ actor: ActorMovie) {
         print(actor.name)
     }
 }

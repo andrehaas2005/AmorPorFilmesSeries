@@ -9,44 +9,88 @@
 import Foundation
 import ModuloServiceMovie
 
-public class HomeViewModel: ViewModelProtocol {
-    typealias DataType = Movie
-    internal var movieService: (any MovieServiceProtocol)!
+public class HomeViewModel {
+    internal var movieService: MovieServiceProtocol
     
     var isLoading: Observable<Bool> = Observable<Bool>(false)
-    var items: Observable<[Movie]> = Observable<[Movie]>()
-    var errorMessage: Observable<String?> = Observable<String?>()
+    
+    var fetchRecentlyWatchedMoviesModel = [Movie]()
+    var fetchUpcomingMoviesModel = [Movie]()
+    var fetchNowPlayingMoviesModel = [Movie]()
+    var errorMessage = String()
+    var delegateLancamento: LancamentoViewControllerDelegate?
+    var delegateFetchNowPlayingMovies: LancamentoViewControllerDelegate?
+    
     weak var coordinator: HomeCoordinator?
     
     init(movieService: MovieServiceProtocol) {
-        self.movieService = movieService
+        self.movieService = NetworkAFMovieService()
     }
     
     func fetchData() {
         isLoading.value = true
-        errorMessage.value = nil // Limpa mensagens de erro anteriores
+        
         let dispatchGroup = DispatchGroup()
+//        dispatchGroup.enter()
+//        movieService.fetchRecentlyWatchedMovies { result in
+//            dispatchGroup.leave()
+//            switch result {
+//            case .success(let movies):
+//                print(separator: "=")
+//                print(movies)
+//                DispatchQueue.main.async {
+//                    self.fetchRecentlyWatchedMoviesModel = movies
+//                }
+//            case .failure(let error):
+//                DispatchQueue.main.async {
+//                    self.errorMessage = "Erro ao carregar filmes em cartaz: \(error.localizedDescription)"
+//                    print("fetchRecentlyWatchedMovies ==> " , self.errorMessage)
+//                }
+//            }
+//            DispatchQueue.main.async {
+//                self.isLoading.value = false
+//            }
+//            
+//        }
+        
+        
         dispatchGroup.enter()
-        DispatchQueue.global().async { [weak self] in
-            self?.movieService.fetchNowPlayingMovies { result in
-                defer { dispatchGroup.leave() }
-                switch result {
-                case .success(let movies):
-                    DispatchQueue.main.async {
-                        self?.items.value = movies
-                    }
-                case .failure(let error):
-                    DispatchQueue.main.async {
-                        self?.errorMessage.value = "Erro ao carregar filmes em cartaz: \(error.localizedDescription)"
-                    }
+        movieService.fetchUpcomingMovies { result in
+            dispatchGroup.leave()
+            switch result {
+            case .success(let listUpcomingMovies):
+                print(separator: "=")
+                print(listUpcomingMovies)
+                self.fetchUpcomingMoviesModel = listUpcomingMovies
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self.errorMessage = "Erro ao carregar filmes em cartaz: \(error.localizedDescription)"
+                    print("fetchUpcomingMovies ==> ", self.errorMessage)
                 }
             }
         }
         
-        dispatchGroup.notify(queue: .main) { [weak self] in
-            DispatchQueue.main.async {
-                self?.isLoading.value = false
+        
+        dispatchGroup.enter()
+        movieService.fetchNowPlayingMovies { result in
+            dispatchGroup.leave()
+            switch result {
+            case .success(let movie):
+               self.fetchNowPlayingMoviesModel = movie
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self.errorMessage = "Erro ao carregar filmes em cartaz: \(error.localizedDescription)"
+                    print("fetchNowPlayingMovies ==> ", self.errorMessage)
+                }
             }
+            
+        }
+        
+        dispatchGroup.notify(queue: .main) {
+            print(separator: "***")
+            print("FInalizado todas as chamadas !!!")
+            self.delegateLancamento?.updateMovie(self.fetchUpcomingMoviesModel)
+            self.delegateFetchNowPlayingMovies?.updateMovie(self.fetchUpcomingMoviesModel)
         }
     }
     

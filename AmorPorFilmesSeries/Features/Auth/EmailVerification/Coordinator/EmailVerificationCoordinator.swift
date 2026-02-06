@@ -8,10 +8,10 @@
 
 import UIKit
 
-class EmailVerificationCoordinator: Coordinator, EmailVerificationViewControllerDelegate {
+class EmailVerificationCoordinator: CoordinatorProtocol, EmailVerificationViewControllerDelegate {
 
     weak var parentCoordinator: AuthCoordinator?
-    var childCoordinators: [Coordinator] = []
+    var childCoordinators: [CoordinatorProtocol] = []
     var navigationController: NavigationController
     private let email: String
 

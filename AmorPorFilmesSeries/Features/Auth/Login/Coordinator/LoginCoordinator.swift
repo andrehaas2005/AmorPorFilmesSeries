@@ -5,9 +5,9 @@
 //  Created by Andre  Haas on 28/05/25.
 //
 
-class LoginCoordinator: Coordinator {
+class LoginCoordinator: CoordinatorProtocol {
     weak var parentCoordinator: AuthCoordinator?
-    var childCoordinators: [Coordinator] = []
+    var childCoordinators: [CoordinatorProtocol] = []
     var navigationController: NavigationController
 
     init(navigationController: NavigationController) {
