@@ -7,21 +7,18 @@
 
 import Foundation
 
-class ActorsViewModel: ViewModelProtocol {
-    var items: Observable<[Actor]> = Observable<[Actor]>()
+class ActorsViewModel: ActorsViewModelProtocol {
+    var actors: Observable<[ActorMovie]> = Observable([])
+    var items: Observable<[Movie]> = Observable([])
+    var actorService: any ActorServiceProtocol
     
-    typealias DataType = Actor
+    var isLoading: Observable<Bool> = Observable(false)
     
-    var isLoading: Observable<Bool> = Observable<Bool>(false)
+    var errorMessage: Observable<String?> = Observable(nil)
     
-    var errorMessage: Observable<String?> = Observable<String?>(nil)
+    var movieService: any MovieServiceProtocol =  MockMovieService()
     
-    var movieService: (any MovieServiceProtocol)!
-    var actorService: (any ActorServiceProtocol)!
-    
-    init(movieService: (any MovieServiceProtocol)! = MockMovieService(),
-         actorService: (any ActorServiceProtocol)!) {
-        self.movieService = movieService
+    init(actorService: (any ActorServiceProtocol) = MockActorService()) {
         self.actorService = actorService
     }
     
@@ -29,21 +26,19 @@ class ActorsViewModel: ViewModelProtocol {
         isLoading.value = true
         errorMessage.value = nil
         
-        let dispatchGroup = DispatchGroup()
-        dispatchGroup.enter()
         actorService.fetchFamousActors { [weak self] result in
-            guard let self = self
-            else {return}
-            defer { dispatchGroup.leave() }
             switch result {
             case .success(let actors):
                 DispatchQueue.main.async {
-                    self.items.value = actors
+                    self?.actors.value = actors
                 }
             case .failure(let error):
                 DispatchQueue.main.async {
-                    self.errorMessage.value = "Erro ao carregar filmes para o banner: \(error.localizedDescription)"
+                    self?.errorMessage.value = "Erro ao carregar filmes para o banner: \(error.localizedDescription)"
                 }
+            }
+            DispatchQueue.main.async {
+                self?.isLoading.value = false
             }
         }
     }

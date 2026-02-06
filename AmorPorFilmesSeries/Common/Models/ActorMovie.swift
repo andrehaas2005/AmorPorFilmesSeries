@@ -16,7 +16,7 @@ import Foundation
 
 
 // MARK: - Result
-struct Actor: Codable {
+struct ActorMovie: Codable {
     let adult: Bool
     let gender, id: Int
     let knownForDepartment: KnownForDepartment

@@ -7,9 +7,9 @@
 
 import UIKit
 extension UINavigationController {
-    var coordinator: Coordinator? {
+    var coordinator: CoordinatorProtocol? {
         // Isso é uma forma simplificada. Em apps maiores, você pode ter um mapa de coordenadores.
         // Assegure-se de que o AppCoordinator ou um coordenador pai gerencie a vida útil.
-        return viewControllers.first?.navigationController?.parent as? Coordinator
+        return viewControllers.first?.navigationController?.parent as? CoordinatorProtocol
     }
 }

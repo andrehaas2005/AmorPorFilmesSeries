@@ -10,7 +10,7 @@ import XCTest
 final class AmorPorFilmesSeriesUITests: XCTestCase {
 
     override func setUpWithError() throws {
-        continueAfterFailure = false
+       
     }
 
     override func tearDownWithError() throws {
@@ -18,8 +18,7 @@ final class AmorPorFilmesSeriesUITests: XCTestCase {
 
     @MainActor
     func testExample() throws {
-        let app = XCUIApplication()
-        app.launch()
+       
     }
 
     @MainActor

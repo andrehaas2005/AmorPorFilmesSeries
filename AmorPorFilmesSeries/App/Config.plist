@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BaseAPIURL</key>
+	<string>https://api.themoviedb.org/3/movie/</string>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZmIwOGRlZTQ2NTFjM2Q5YjE1MzZhNjllYTNmM2QxNiIsIm5iZiI6MTQyMDQ3MTA3MC44MDcwMDAyLCJzdWIiOiI1NGFhYWIxZWMzYTM2ODBjMzAwMDc0MjEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.O5QokbNrnxRhRqEdR8kq3Zvd0S1TkON2uFg-JwdOzOE</string>
 	<key>ImageBaseURL</key>
 	<string>https://image.tmdb.org/t/p/w500/</string>
 </dict>

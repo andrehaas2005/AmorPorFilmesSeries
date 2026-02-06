@@ -7,6 +7,7 @@
 
 
 import Foundation
+import ModuloServiceMovie
 
 enum Configuration {
     private static let config: NSDictionary? = {
@@ -39,4 +40,7 @@ enum Configuration {
     static var imageBaseURL: String {
         return config?["ImageBaseURL"] as? String ?? ""
     }
+    
+    static var serviceMovie: MovieServiceProtocol = MovieService.shared
+    static var serviceActors: ActorServiceProtocol = ActorServiceWithAlamofire.shared
 }

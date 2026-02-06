@@ -78,12 +78,12 @@
          <EnvironmentVariable
             key = "BASE_URL"
             value = "https://api.themoviedb.org/3/movie/"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "API_KEY"
             value = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZmIwOGRlZTQ2NTFjM2Q5YjE1MzZhNjllYTNmM2QxNiIsIm5iZiI6MTQyMDQ3MTA3MC44MDcwMDAyLCJzdWIiOiI1NGFhYWIxZWMzYTM2ODBjMzAwMDc0MjEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.O5QokbNrnxRhRqEdR8kq3Zvd0S1TkON2uFg-JwdOzOE"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>

@@ -10,7 +10,7 @@
 import Foundation
 
 final class MockActorService: ActorServiceProtocol {
-    func fetchFamousActors(completion: @escaping (Result<[Actor], Error>) -> Void) {
+    func fetchFamousActors(completion: @escaping (Result<[ActorMovie], Error>) -> Void) {
         DispatchQueue(label: "Mock").asyncAfter(deadline: .now() + 1.1, execute: {
             completion(.success(Utilits.getObject("ListActorsPopular")))
         })

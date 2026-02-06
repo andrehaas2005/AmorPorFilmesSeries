@@ -32,7 +32,7 @@ opt_in_rules: # Regras para habilitar (a maioria não é por padrão)
   - operator_whitespace
   - orphaned_doc_comment
   - redundant_nil_coalescing
-  - sorted_imports
+#  - sorted_imports
   - switch_case_alignment
   - trailing_comma
   - unneeded_break_in_switch

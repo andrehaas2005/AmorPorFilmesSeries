@@ -13,15 +13,15 @@ import UIKit
 enum DetailType {
     case movie(Movie)
     case serie(Serie)
-    case actor(Actor)
+    case actor(ActorMovie)
 }
 
-class DetailsCoordinator: Coordinator {
+class DetailsCoordinator: CoordinatorProtocol {
     
     
     
     weak var parentCoordinator: HomeCoordinator? // Pode ser HomeCoordinator ou AppCoordinator, dependendo do fluxo
-    var childCoordinators: [Coordinator] = []
+    var childCoordinators: [CoordinatorProtocol] = []
     var navigationController: NavigationController
 
     init(navigationController: NavigationController) {

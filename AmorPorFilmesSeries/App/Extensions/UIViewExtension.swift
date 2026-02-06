@@ -10,6 +10,7 @@ import UIKit
 enum BackgroundImage: String {
     case sign = "fundo-sign"
     case login = "fundo-login"
+    case home = "fundo-home"
     
 }
 

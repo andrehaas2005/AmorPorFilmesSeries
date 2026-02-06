@@ -22,7 +22,7 @@ class PosterGrandeCell: UICollectionViewCell {
     var posterImage: UIImageView  = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "movie-placeholder") // Certifique-se que esta imagem existe nos Assets
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleToFill
         imageView.clipsToBounds = true
         return imageView
     }()
@@ -78,11 +78,11 @@ class PosterGrandeCell: UICollectionViewCell {
         // Constraints para o labelName (acima do botão, centralizado)
         labelName.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.leading.trailing.equalToSuperview()//.inset(16) // Margens laterais
-            make.bottom.equalTo(btnDetai.snp.top).offset(-16) // Espaçamento entre label e botão
+            make.leading.trailing.equalToSuperview()
+            make.bottom.equalTo(btnDetai.snp.top).offset(-16)
         }
 
-        // Constraints para o btnDetai (centralizado na parte inferior)
+       
         btnDetai.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.bottom.equalToSuperview().offset(-20) // Distância da parte inferior

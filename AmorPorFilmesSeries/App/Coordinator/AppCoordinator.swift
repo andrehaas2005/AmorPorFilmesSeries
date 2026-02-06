@@ -8,16 +8,9 @@
 // App/Coordinator/AppCoordinator.swift
 import UIKit
 
-protocol Coordinator: AnyObject {
-    var childCoordinators: [Coordinator] { get set }
-    var navigationController: NavigationController { get set }
+class AppCoordinator: CoordinatorProtocol {
     
-    func start()
-}
-
-class AppCoordinator: Coordinator {
-    
-    var childCoordinators = [Coordinator]()
+    var childCoordinators = [CoordinatorProtocol]()
     var navigationController: NavigationController // Será usado pelos coordenadores filhos das abas
     
     init(navigationController: NavigationController) {
@@ -49,9 +42,9 @@ class AppCoordinator: Coordinator {
         childCoordinators.removeAll()
         
         let tabBarController = UITabBarController()
-        tabBarController.tabBar.tintColor = .systemGreen // Personalize a cor das abas
-        tabBarController.tabBar.barTintColor = Color.primaryDark // Cor de fundo da tab bar
-        tabBarController.tabBar.isTranslucent = false // Evita transparência indesejada
+//        tabBarController.tabBar.tintColor = .systemGreen // Personalize a cor das abas
+//        tabBarController.tabBar.barTintColor = Color.primaryDark // Cor de fundo da tab bar
+        tabBarController.tabBar.isTranslucent = true // Evita transparência indesejada
         
         // MARK: - Configuração das Abas
         // 1. Aba Início (Home)
@@ -61,7 +54,7 @@ class AppCoordinator: Coordinator {
         childCoordinators.append(homeCoordinator)
         homeCoordinator.start()
         homeNavController.tabBarItem = UITabBarItem(title: "Início", image: UIImage(systemName: "house.fill"), tag: 0)
-        homeNavController.navigationBar.prefersLargeTitles = true
+//        homeNavController.navigationBar.prefersLargeTitles = true
         
         // 2. Aba Minha Lista (Watchlist) - Você precisará criar WatchlistCoordinator e WatchlistViewController
         let watchlistNavController = NavigationController()

@@ -12,6 +12,6 @@ import Foundation
 // Define o protocolo para o serviço de atores.
 protocol ActorServiceProtocol {
     /// Busca uma lista de atores famosos.
-    func fetchFamousActors(completion: @escaping (Result<[Actor], Error>) -> Void)
+    func fetchFamousActors(completion: @escaping (Result<[ActorMovie], Error>) -> Void)
 }
 //https://api.themoviedb.org/3/person/popular

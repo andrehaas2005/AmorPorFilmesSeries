@@ -1,22 +1,22 @@
 {
-  "originHash" : "f1969d64debd4c719b6efcff473511a87d4968f660b4be7075c1561d65b4f94f",
+  "originHash" : "f52b454ef04145afcda569afe0a920e951ebb845816fb3eb0a83d738a08e0653",
   "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
     {
       "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher.git",
       "state" : {
-        "revision" : "7deda23bbdca612076c5c315003d8638a08ed0f1",
-        "version" : "8.3.2"
-      }
-    },
-    {
-      "identity" : "moduloservicemovie",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/andrehaas2005/ModuloServiceMovie.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "2e989541d2a2a010753948c47d972879b6cce488"
+        "revision" : "010a06c4387cea2d13606222b6c08e0454e6dd2d",
+        "version" : "8.3.3"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/andrehaas2005/ModuloServiceSeries.git",
       "state" : {
         "branch" : "main",
-        "revision" : "95e67621b006672d288c6dc8f001d8544b697af8"
+        "revision" : "798d088334768e6f20338b8d5231f5f52381870b"
       }
     },
     {
